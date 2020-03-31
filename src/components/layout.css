@@ -88,6 +88,10 @@ sup {
 img {
   border-style: none;
 }
+
+img:hover {
+  border: 1px solid turquoise;
+}
 svg:not(:root) {
   overflow: hidden;
 }
