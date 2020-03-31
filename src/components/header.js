@@ -7,6 +7,7 @@ const Content = styled.div`
   max-width: 860px;
   padding: 1rem 1.0875rem;
   font-size: 1.2rem;
+  text-align: center;
 `
 
 const NavLink = styled(Link)`

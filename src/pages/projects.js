@@ -14,6 +14,9 @@ const Content = styled.div`
   margin: 0 auto;
   max-width: 860px;
   padding: 1.45rem 1.0875rem;
+  @media (max-width: 400px) {
+    padding: 0px;
+  }
 `
 
 const ArticleDate = styled.h5`
@@ -82,7 +85,7 @@ const IndexPage = ({ data }) => {
                   ? `${
                       (window.innerWidth < 730
                         ? window.innerWidth * 0.7
-                        : 705) * 0.57
+                        : 705) * 0.59
                     }px`
                   : "315px"
               }
@@ -118,7 +121,7 @@ const IndexPage = ({ data }) => {
                   ? `${
                       (window.innerWidth < 730
                         ? window.innerWidth * 0.7
-                        : 705) * 0.57
+                        : 705) * 0.59
                     }px`
                   : "560px"
               }
