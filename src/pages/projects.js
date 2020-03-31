@@ -142,8 +142,13 @@ const IndexPage = ({ data }) => {
         <ProjectCard>
           <h2>Coocup Concept</h2>
           <p>
-            This application is still in development and tries to improve the
-            The click dummy can be tryed{" "}
+            The idea of this product was to bulid the AirBnb of Food. However,
+            it turned out that there are some{" "}
+            <a href="https://www.quora.com/Why-hasnt-Airbnb-for-food-taken-off">
+              factors
+            </a>{" "}
+            that minimize the potential for this type of venture. The
+            click-dummy can be tried
             <a href="https://xd.adobe.com/view/b4c7869d-cd5e-4bf0-4889-77546cee56ea-c2f6/?fullscreen">
               here
             </a>
