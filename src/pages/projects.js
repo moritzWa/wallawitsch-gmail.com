@@ -5,6 +5,8 @@ import styled from "@emotion/styled"
 
 import arclemockup from "../images/ArcleMockup.png"
 
+import cookupThum from "../images/cookupThum.png"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -49,11 +51,6 @@ const ProjectCard = styled.div`
   border-radius: 15px;
   overflow: hidden;
 ` */
-
-console.log("Width:  " + getWidth())
-console.log("Height: " + getHeight())
-
-const iframeHeight = `${getHeight() - 20}px`
 
 const IndexPage = ({ data }) => {
   return (
@@ -105,7 +102,7 @@ const IndexPage = ({ data }) => {
           </div>
         </ProjectCard>
         <ProjectCard>
-          <h2>Arlce - Social Bookmarking for great Articles</h2>
+          <h2>Arcle - Social Bookmarking for great Articles</h2>
           <p>
             This application is still in development and tries to improve the
             experience of finding great articles to read. A mockup of the open
@@ -117,10 +114,15 @@ const IndexPage = ({ data }) => {
           <h2>Coocup Concept</h2>
           <p>
             This application is still in development and tries to improve the
-            experience of finding great articles to read. A mockup of the open
-            chrome extension is displayed below.
+            The click dummy can be tryed{" "}
+            <a href="https://xd.adobe.com/view/b4c7869d-cd5e-4bf0-4889-77546cee56ea-c2f6/?fullscreen">
+              here
+            </a>
           </p>
-          <img src={arclemockup} />
+          <a href="/cookup">
+            {" "}
+            <img src={cookupThum} />
+          </a>
         </ProjectCard>
       </Content>
     </Layout>
