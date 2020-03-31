@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
 import styled from "@emotion/styled"
@@ -46,13 +46,7 @@ const ProjectCard = styled.div`
   margin: 3rem 0;
 `
 
-const iframWidth = () => {
-  return `${window.innerWidth < 730 ? window.innerWidth * 0.7 : 705}px`
-}
-const iframHeight = () => {
-  console.log("heigth in calc:", iframWidth())
-  return `${(window.innerWidth < 730 ? window.innerWidth * 0.7 : 705) * 0.57}px`
-}
+//console.log(typeof window !== "undefined" && window)
 
 const IndexPage = ({ data }) => {
   return (
@@ -73,13 +67,25 @@ const IndexPage = ({ data }) => {
             and is similar to the product{" "}
             <a href="https://rossum.ai/product/">rossum.ai/</a>
           </p>
-          {console.log("ifwidth:", iframWidth())}
-          {console.log("ifheight:", iframHeight())}
 
           <div>
             <iframe
-              width={iframWidth()}
-              height={iframHeight()}
+              width={
+                typeof window !== "undefined"
+                  ? `${
+                      window.innerWidth < 730 ? window.innerWidth * 0.7 : 705
+                    }px`
+                  : "560px"
+              }
+              height={
+                typeof window !== "undefined"
+                  ? `${
+                      (window.innerWidth < 730
+                        ? window.innerWidth * 0.7
+                        : 705) * 0.57
+                    }px`
+                  : "315px"
+              }
               title="Data-extraction-AI"
               src="https://www.youtube.com/embed/AFL-l952I5E"
               frameborder="0"
@@ -100,8 +106,22 @@ const IndexPage = ({ data }) => {
           </p>
           <div>
             <iframe
-              width={iframWidth()}
-              height={iframHeight()}
+              width={
+                typeof window !== "undefined"
+                  ? `${
+                      window.innerWidth < 730 ? window.innerWidth * 0.7 : 705
+                    }px`
+                  : "315px"
+              }
+              height={
+                typeof window !== "undefined"
+                  ? `${
+                      (window.innerWidth < 730
+                        ? window.innerWidth * 0.7
+                        : 705) * 0.57
+                    }px`
+                  : "560px"
+              }
               title="Repio.app"
               src="https://www.youtube.com/embed/lfoa3N4uVyc"
               frameborder="0"

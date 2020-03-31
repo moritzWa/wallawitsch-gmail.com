@@ -632,7 +632,7 @@ a::selection {
   }
 }
 
-[style*="--aspect-ratio"] > :first-child {
+/* [style*="--aspect-ratio"] > :first-child {
   width: 100%;
 }
 [style*="--aspect-ratio"] > img {
@@ -653,4 +653,4 @@ a::selection {
     left: 0;
     height: 100%;
   }
-}
+} */
