@@ -1,43 +1,18 @@
 ---
-title: "How to learn Software Engineering"
+title: "Draft: Can open-source software platform/marketplaces exist?"
 date: "2019-03-17"
 draft: false
-path: "/blog/example-title"
+path: "/blog/Open-source_software_platforms"
 ---
 
-# H1
+In this Article I will be analyzing and comparing the very few examples for open source platform that exist like [spectrum.chat](https://slack-redir.net/link?url=https%3A%2F%2Fspectrum.chat%2F). I will also examine the application of smart contracts to engineer a Decentralized autonomous organizations (DAOs) where the costs of running the infastructure of a service are distributed algorithmically.
 
-## H2
+## The structure will look something like this:
 
-### H3
-
-#### H4
-
-##### H5
-
-###### H6
-
-Paragraph
-
----
-
-> This is a quote
-
----
-
-[Example.com](example.com)
-
----
-
-`const foo = bar`
-
-```javascript
-const foo = bar
-console.log(foo)
-```
-
----
-
-| Hello |  World |
-| ----- | ------ |
-| Foo   | Bar    |
+1. Definition of platforms and marketplaces
+2. Definition of open source platforms/marketplaces i.e. open platforms
+3. Open source and proprietary Licensing
+4. Decentralized autonomous organizations (DAOs)
+5. Main factors that contribute to the growth of a platform
+6. Obstacles of open platforms
+7. Funding for open platforms through smart contracts
