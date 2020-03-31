@@ -45,12 +45,14 @@ const ProjectCard = styled.div`
   padding: 2rem;
   margin: 3rem 0;
 `
-/* const iframe = styled.iframe`
-  border: 4px solid #000;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-  overflow: hidden;
-` */
+
+const iframWidth = () => {
+  return `${window.innerWidth < 730 ? window.innerWidth * 0.7 : 705}px`
+}
+const iframHeight = () => {
+  console.log("heigth in calc:", iframWidth())
+  return `${(window.innerWidth < 730 ? window.innerWidth * 0.7 : 705) * 0.57}px`
+}
 
 const IndexPage = ({ data }) => {
   return (
@@ -71,13 +73,18 @@ const IndexPage = ({ data }) => {
             and is similar to the product{" "}
             <a href="https://rossum.ai/product/">rossum.ai/</a>
           </p>
-          <div style={{ "--aspect-ratio": "16/9" }}>
+          {console.log("ifwidth:", iframWidth())}
+          {console.log("ifheight:", iframHeight())}
+
+          <div>
             <iframe
+              width={iframWidth()}
+              height={iframHeight()}
               title="Data-extraction-AI"
               src="https://www.youtube.com/embed/AFL-l952I5E"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullscreen
             ></iframe>
           </div>
         </ProjectCard>
@@ -91,13 +98,15 @@ const IndexPage = ({ data }) => {
             knowledge you want to learn. More about the application on{" "}
             <a href="https://repio.app">repio.app</a>.
           </p>
-          <div style={{ "--aspect-ratio": "16/9" }}>
+          <div>
             <iframe
+              width={iframWidth()}
+              height={iframHeight()}
               title="Repio.app"
               src="https://www.youtube.com/embed/lfoa3N4uVyc"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullscreen
             ></iframe>
           </div>
         </ProjectCard>
@@ -119,10 +128,10 @@ const IndexPage = ({ data }) => {
               here
             </a>
           </p>
-          <a href="/cookup">
+          <Link to="/cookup">
             {" "}
             <img src={cookupThum} />
-          </a>
+          </Link>
         </ProjectCard>
       </Content>
     </Layout>
