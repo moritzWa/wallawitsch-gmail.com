@@ -65,6 +65,39 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-remark-embed-video",
+      options: {
+        width: 800,
+        ratio: 1.77,
+        height: 400,
+        related: false,
+        noIframeBorder: true,
+      },
+    },
+    {
+      resolve: `gatsby-remark-responsive-iframe`,
+      options: {
+        wrapperStyle: `margin-bottom: 1.0725rem`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 590,
+            },
+          },
+        ],
+      },
+    },
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',

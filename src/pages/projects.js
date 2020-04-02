@@ -42,11 +42,15 @@ const ReadingTime = styled.h5`
 
 const ProjectCard = styled.div`
   box-shadow: 0px 2px 10px #a9c9cc;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   max-width: 50rem;
   max-height: 50rem;
   padding: 2rem;
   margin: 3rem 0;
+  :hover {
+    box-shadow: 0px 5px 20px #a9c9cc;
+    transition: all 0.2s ease-out;
+  }
 `
 
 //console.log(typeof window !== "undefined" && window)
@@ -60,15 +64,16 @@ const IndexPage = ({ data }) => {
         <ProjectCard>
           <h2>Extractly: Document Data Extraction AI Dashboard</h2>
           <p>
-            Currently I am building a Dashboard for an Data-extraction-AI with
-            React-Typescript. This AI was originally developed for{" "}
+            Currently, I am building a Dashboard for a Data-extraction-AI with
+            React-Typescript which is similar to
+            <a href="https://rossum.ai/product/">rossum.ai</a>. This AI was
+            originally developed for{" "}
             <a href="https://www.rechnung.de/">Rechnung.de</a>. More about the
             project can be found on{" "}
             <a href="https://markov-solutions.com/portfolio/en/">
-              markov-solutions.com
+              markov-solutions.com.
             </a>{" "}
-            and is similar to the product{" "}
-            <a href="https://rossum.ai/product/">rossum.ai/</a>
+            The last features are still being implemented.
           </p>
 
           <div>
@@ -91,7 +96,7 @@ const IndexPage = ({ data }) => {
               }
               title="Data-extraction-AI"
               src="https://www.youtube.com/embed/AFL-l952I5E"
-              frameborder="0"
+              frameborder="1"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullscreen
             ></iframe>
@@ -102,7 +107,7 @@ const IndexPage = ({ data }) => {
             Repio - A simple spaced repetition app to help you remember to learn
           </h2>
           <p>
-            The most simple spaced repetition App you have ever seen. Completely
+            The most simple spaced repetition app you have ever seen. Completely
             detached from the lessons, notes, videos and other forms of
             knowledge you want to learn. More about the application on{" "}
             <a href="https://repio.app">repio.app</a>.
@@ -127,7 +132,7 @@ const IndexPage = ({ data }) => {
               }
               title="Repio.app"
               src="https://www.youtube.com/embed/lfoa3N4uVyc"
-              frameborder="0"
+              frameborder="1"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullscreen
             ></iframe>
@@ -151,7 +156,7 @@ const IndexPage = ({ data }) => {
               factors
             </a>{" "}
             that minimize the potential for this type of venture. The
-            click-dummy can be tried
+            click-dummy can be tried{" "}
             <a href="https://xd.adobe.com/view/b4c7869d-cd5e-4bf0-4889-77546cee56ea-c2f6/?fullscreen">
               here
             </a>
