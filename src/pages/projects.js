@@ -4,7 +4,6 @@ import { css } from "@emotion/core"
 import styled from "@emotion/styled"
 
 import arclemockup from "../images/ArcleMockup.png"
-
 import cookupThum from "../images/cookupThum.png"
 
 import Layout from "../components/layout"
@@ -17,27 +16,6 @@ const Content = styled.div`
   @media (max-width: 400px) {
     padding: 0px;
   }
-`
-
-const ArticleDate = styled.h5`
-  display: inline;
-  color: #606060;
-`
-
-const MarkerHeader = styled.h3`
-  display: inline;
-  border-radius: 1em 0 1em 0;
-  background-image: linear-gradient(
-    -100deg,
-    rgba(255, 250, 150, 0.15),
-    rgba(255, 250, 150, 0.8) 100%,
-    rgba(255, 250, 150, 0.25)
-  );
-`
-
-const ReadingTime = styled.h5`
-  display: inline;
-  color: #606060;
 `
 
 const ProjectCard = styled.div`
@@ -55,7 +33,7 @@ const ProjectCard = styled.div`
 
 //console.log(typeof window !== "undefined" && window)
 
-const IndexPage = ({ data }) => {
+const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Projects" eywords={[`projects`, `MERN`, `react`]} />
