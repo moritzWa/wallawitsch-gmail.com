@@ -36,7 +36,7 @@ const ProjectCard = styled.div`
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO title="Projects" eywords={[`projects`, `MERN`, `react`]} />
+      <SEO title="Projects" keywords={[`projects`, `MERN`, `react`]} />
       <Content>
         <h1>Projects</h1>
         <ProjectCard>
