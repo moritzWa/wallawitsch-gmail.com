@@ -15,11 +15,15 @@ const MarkedHeader = styled.h1`
   border-radius: 1em 0 1em 0;
   background-image: linear-gradient(
     -100deg,
-    rgba(255, 250, 150, 0.15),
-    rgba(255, 250, 150, 0.8) 100%,
-    rgba(255, 250, 150, 0.25)
+    rgba(0, 150, 200, 0.07),
+    rgba(0, 150, 200, 0.4) 100%,
+    rgba(0, 150, 200, 0.15)
   );
 `
+/* -100deg,
+    rgba(0, 150, 200, 0.15),
+    rgba(0, 150, 200, 0.8) 100%,
+    rgba(0, 150, 200, 0.25) */
 
 const HeaderDate = styled.h3`
   margin-top: 10px;
@@ -33,8 +37,8 @@ const MarkdownContent = styled.div`
     position: relative;
 
     background-image: linear-gradient(
-      rgba(255, 250, 150, 0.8),
-      rgba(255, 250, 150, 0.8)
+      rgba(0, 150, 200, 0.4),
+      rgba(0, 150, 200, 0.4)
     );
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
