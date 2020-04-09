@@ -19,7 +19,19 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Projects" eywords={[`projects`, `MERN`, `react`]} />
       <Content>
-        <h3>Links</h3>
+        <h1>Mindmaps</h1>
+        <p>
+          In the last years I've listened to{" "}
+          <a
+            target="_blank"
+            href="https://www.goodreads.com/moritzw"
+            target="_blank"
+          >
+            many book
+          </a>{" "}
+          and podcast and used xmind to create notes. Here is a collection of
+          some of those accumulations.
+        </p>
       </Content>
     </Layout>
   )
