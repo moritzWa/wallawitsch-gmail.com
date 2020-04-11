@@ -14,7 +14,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { fab } from "@fortawesome/free-brands-svg-icons"
 
-import { faCheckSquare, faUserNinja } from "@fortawesome/free-solid-svg-icons"
+import {
+  faCheckSquare,
+  faUserNinja,
+  faAtom,
+} from "@fortawesome/free-solid-svg-icons"
 
 import Header from "./header"
 import "./layout.css"
@@ -78,11 +82,11 @@ const Layout = ({ children }) => (
                 size="lg"
               ></FAicon>
             </a>
+            <a href="https://steemhunt.com/author/@moritzw" target="_blank">
+              <FAicon icon={faAtom} size="lg"></FAicon>
+            </a>
             <a href="https://www.linkedin.com/in/moritzw/" target="_blank">
-              <FAicon
-                icon={["fab", "linkedin"]} //"fab fa-angellist"
-                size="lg"
-              ></FAicon>
+              <FAicon icon={["fab", "linkedin"]} size="lg"></FAicon>
             </a>
             <a
               href="https://www.researchgate.net/profile/Moritz_Wallawitsch"
@@ -90,13 +94,13 @@ const Layout = ({ children }) => (
             >
               <FAicon
                 size="lg"
-                icon={["fab", "researchgate"]} //"fab fa-angellist"
+                icon={["fab", "researchgate"]}
                 size="lg"
               ></FAicon>
             </a>
             <a href="https://www.codewars.com/users/MoritzW" target="_blank">
               <FAicon
-                icon={faUserNinja} //"fab fa-angellist"
+                icon={faUserNinja}
                 //icon={["fa", "user-ninja"]}
               ></FAicon>
             </a>

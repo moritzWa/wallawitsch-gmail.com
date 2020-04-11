@@ -18,6 +18,15 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: `slug`,
       value: slug,
     })
+
+    createNodeField({
+      node,
+      name: `editLink`,
+      value: `https://github.com/moritzWa/moritz-homepage/edit/master${node.fileAbsolute.replace(
+        __dirname,
+        ""
+      )}`,
+    })
   }
 }
 
