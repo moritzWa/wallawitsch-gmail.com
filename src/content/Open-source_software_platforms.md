@@ -1,18 +1,52 @@
 ---
-title: "Draft: Can open-source software platform/marketplaces exist?"
+title: "If Medium would be more like Wikipedia: Decentralized Autonomous Organizations in Open Source"
 date: "2019-03-17"
 draft: false
 path: "/blog/Open-source_software_platforms"
 ---
 
-In this Article I will be analyzing and comparing the very few examples for open source platform that exist like [spectrum.chat](https://slack-redir.net/link?url=https%3A%2F%2Fspectrum.chat%2F). I will also examine the application of smart contracts to engineer a Decentralized autonomous organizations (DAOs) where the costs of running the infastructure of a service are distributed algorithmically.
-
 ## The structure will look something like this:
 
-1. Definition of platforms and marketplaces
-2. Definition of open source platforms/marketplaces i.e. open platforms
-3. Open source and proprietary Licensing
-4. Decentralized autonomous organizations (DAOs)
-5. Main factors that contribute to the growth of a platform
-6. Obstacles of open platforms
-7. Funding for open platforms through smart contracts
+## 1 Introduction
+
+### 1.1 Focus
+
+## 2 Types of Open Platforms
+
+### 2.1 Open source software and Marketplaces and Platforms
+
+#### 2.1.2 Marketplaces and Platforms
+
+#### 2.1.1 Open source software
+
+### 2.2 DApps and DAOs
+
+#### 2.2.1 Example Steemit.com
+
+### 2.3 DApp Management Tools
+
+#### 2.3.1 Colony
+
+#### 2.3.2 Aragon
+
+#### 2.3.3 Others
+
+#### 2.3.4 Design of Tools
+
+## 3 Comparison of the economics of different organization types
+
+### 3.1 Company Founding and Economics
+
+### 3.2 Decentralization
+
+### 3.3 Platform-Risk
+
+## 4 Obstacles for DApp Platforms
+
+### 4.1 Technological
+
+### 4.2 User Experience
+
+## 5 Conclusion
+
+## References

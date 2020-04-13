@@ -19,14 +19,14 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: slug,
     })
 
-    createNodeField({
+    /* createNodeField({
       node,
       name: `editLink`,
       value: `https://github.com/moritzWa/moritz-homepage/edit/master${node.fileAbsolute.replace(
         __dirname,
         ""
       )}`,
-    })
+    }) */
   }
 }
 
