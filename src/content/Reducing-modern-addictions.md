@@ -1,5 +1,5 @@
 ---
-title: "Essay: Reducing modern addictions through psychology education"
+title: "Reducing modern addictions through psychology education"
 date: "2019-03-18"
 draft: false
 path: "/blog/Reducing_modern_addictions_through_psychology_education"
