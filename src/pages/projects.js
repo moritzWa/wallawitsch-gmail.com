@@ -33,7 +33,24 @@ const ProjectCard = styled.div`
 
 //console.log(typeof window !== "undefined" && window)
 
+let iframeWidth = () =>
+  typeof window !== "undefined"
+    ? `${window.innerWidth < 730 ? window.innerWidth * 0.7 : 705}px`
+    : "560px"
+let iframeHeight = () =>
+  typeof window !== "undefined"
+    ? `${(window.innerWidth < 730 ? window.innerWidth * 0.7 : 705) * 0.59}px`
+    : "315px"
+
 const IndexPage = () => {
+  if (typeof window !== "undefined") {
+    window.addEventListener("resize", function () {
+      console.log("reszising with", window.innerWidth, window.innerHeight)
+      iframeWidth()
+      iframeHeight()
+    })
+  }
+
   return (
     <Layout>
       <SEO title="Projects" keywords={[`projects`, `MERN`, `react`]} />
@@ -56,22 +73,8 @@ const IndexPage = () => {
 
           <div>
             <iframe
-              width={
-                typeof window !== "undefined"
-                  ? `${
-                      window.innerWidth < 730 ? window.innerWidth * 0.7 : 705
-                    }px`
-                  : "560px"
-              }
-              height={
-                typeof window !== "undefined"
-                  ? `${
-                      (window.innerWidth < 730
-                        ? window.innerWidth * 0.7
-                        : 705) * 0.59
-                    }px`
-                  : "315px"
-              }
+              width={iframeWidth()}
+              height={iframeHeight()}
               title="Data-extraction-AI"
               src="https://www.youtube.com/embed/AFL-l952I5E"
               frameborder="1"
@@ -92,22 +95,8 @@ const IndexPage = () => {
           </p>
           <div>
             <iframe
-              width={
-                typeof window !== "undefined"
-                  ? `${
-                      window.innerWidth < 730 ? window.innerWidth * 0.7 : 705
-                    }px`
-                  : "315px"
-              }
-              height={
-                typeof window !== "undefined"
-                  ? `${
-                      (window.innerWidth < 730
-                        ? window.innerWidth * 0.7
-                        : 705) * 0.59
-                    }px`
-                  : "560px"
-              }
+              width={iframeWidth()}
+              height={iframeHeight()}
               title="Repio.app"
               src="https://www.youtube.com/embed/lfoa3N4uVyc"
               frameborder="1"
