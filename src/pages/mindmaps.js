@@ -24,13 +24,14 @@ const IndexPage = () => {
           In the last years I've listened to{" "}
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="https://www.goodreads.com/moritzw"
             target="_blank"
           >
             many book
           </a>{" "}
-          and podcast and used xmind to create notes. Here is a collection of
-          some of those accumulations.
+          and podcast and used xmind to create notes. Here will be a collection
+          of some of those accumulations.
         </p>
       </Content>
     </Layout>

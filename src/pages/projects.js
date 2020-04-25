@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import { Link, graphql } from "gatsby"
-import { css } from "@emotion/core"
 import styled from "@emotion/styled"
 
 import arclemockup from "../images/ArcleMockup.png"
@@ -68,7 +67,8 @@ const IndexPage = () => {
             <a href="https://markov-solutions.com/portfolio/en/">
               markov-solutions.com.
             </a>{" "}
-            The last features are still being implemented.
+            The last features are still being implemented, but the demo can be
+            tried <a href="https://dashboard.markov-solutions.com/">here</a>.
           </p>
 
           <div>
@@ -104,6 +104,15 @@ const IndexPage = () => {
               allowFullscreen
             ></iframe>
           </div>
+        </ProjectCard>
+        <ProjectCard>
+          <h2>Arcle - Social Bookmarking for great Articles</h2>
+          <p>
+            This application is still in development and tries to improve the
+            experience of finding great articles to read. A mockup of the open
+            chrome extension is displayed below.
+          </p>
+          <img src={arclemockup} />
         </ProjectCard>
         <ProjectCard>
           <h2>Arcle - Social Bookmarking for great Articles</h2>

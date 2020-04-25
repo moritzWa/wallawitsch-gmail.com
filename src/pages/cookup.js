@@ -2,8 +2,6 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-import cookup from "../images/cookup.png"
-
 import SEO from "../components/seo"
 
 const IndexPage = () => {
