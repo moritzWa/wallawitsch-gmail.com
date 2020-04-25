@@ -1,9 +1,8 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import styled from "@emotion/styled"
+import { Link, useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
 
-import arclemockup from "../images/ArcleMockup.png"
-import cookupThum from "../images/cookupThum.png"
+import styled from "@emotion/styled"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -49,6 +48,25 @@ const IndexPage = () => {
       iframeHeight()
     })
   }
+
+  const data = useStaticQuery(
+    graphql`
+      query ImagesProjects {
+        image: file(relativePath: { eq: "cookupThum.png" }) {
+          id
+          childImageSharp {
+            fixed {
+              ...GatsbyImageSharpFixed
+            }
+            fluid(maxWidth: 900, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    `
+  )
+  console.log(data)
 
   return (
     <Layout>
@@ -105,7 +123,7 @@ const IndexPage = () => {
             ></iframe>
           </div>
         </ProjectCard>
-        <ProjectCard>
+        {/*  <ProjectCard>
           <h2>Arcle - Social Bookmarking for great Articles</h2>
           <p>
             This application is still in development and tries to improve the
@@ -113,16 +131,7 @@ const IndexPage = () => {
             chrome extension is displayed below.
           </p>
           <img src={arclemockup} />
-        </ProjectCard>
-        <ProjectCard>
-          <h2>Arcle - Social Bookmarking for great Articles</h2>
-          <p>
-            This application is still in development and tries to improve the
-            experience of finding great articles to read. A mockup of the open
-            chrome extension is displayed below.
-          </p>
-          <img src={arclemockup} />
-        </ProjectCard>
+        </ProjectCard> */}
         <ProjectCard>
           <h2>Coocup Concept</h2>
           <p>
@@ -139,7 +148,7 @@ const IndexPage = () => {
           </p>
           <Link to="/cookup">
             {" "}
-            <img src={cookupThum} />
+            <Img fluid={data.image.childImageSharp.fluid} />
           </Link>
         </ProjectCard>
       </Content>
@@ -148,37 +157,3 @@ const IndexPage = () => {
 }
 
 export default IndexPage
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { draft: { eq: false } } }
-    ) {
-      totalCount
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            date(formatString: "DD MMMM, YYYY")
-            rawDate: date
-            path
-          }
-          fields {
-            slug
-            readingTime {
-              text
-            }
-          }
-          excerpt
-        }
-      }
-    }
-  }
-`
