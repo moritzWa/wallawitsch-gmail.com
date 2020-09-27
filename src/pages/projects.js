@@ -52,7 +52,18 @@ const IndexPage = () => {
   const data = useStaticQuery(
     graphql`
       query ImagesProjects {
-        image: file(relativePath: { eq: "cookupThum.png" }) {
+        imageCookup: file(relativePath: { eq: "cookupThum.png" }) {
+          id
+          childImageSharp {
+            fixed {
+              ...GatsbyImageSharpFixed
+            }
+            fluid(maxWidth: 900, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        imageLibrary: file(relativePath: { eq: "learningLibrary.png" }) {
           id
           childImageSharp {
             fixed {
@@ -74,9 +85,21 @@ const IndexPage = () => {
       <Content>
         <h1>Projects</h1>
         <ProjectCard>
-          <h2>Extractly: Document Data Extraction AI Dashboard</h2>
+          <h2>Learning Library</h2>
           <p>
-            Currently, I am building a Dashboard for a Data-extraction-AI with
+            A crowdsources library with links to resources about: Learning-Psychology, Note-Taking, Spaced Repetition, Memory, Visual Learning, Machine Learning, Attention, Creative thinking, Mental Models, Knowledge Representation, Reading, Connected Thought, Edtech, Learning-journey, and more.
+          </p>
+          <div>
+            <Link to="https://www.notion.so/Learning-Library-2ecb646b5e1e4d5c8274c73c3fbb2541">
+              {" "}
+              <Img fluid={data.imageLibrary.childImageSharp.fluid} />
+            </Link>
+          </div>
+        </ProjectCard>
+        <ProjectCard>
+          <h2>Extractly - Document Data Extraction AI Dashboard</h2>
+          <p>
+            I build a Dashboard for a Data-extraction-AI with
             React-Typescript which is similar to
             <a href="https://rossum.ai/product/">rossum.ai</a>. This AI was
             originally developed for{" "}
@@ -85,10 +108,8 @@ const IndexPage = () => {
             <a href="https://markov-solutions.com/portfolio/en/">
               markov-solutions.com.
             </a>{" "}
-            The last features are still being implemented, but the demo can be
-            tried <a href="https://dashboard.markov-solutions.com/">here</a>.
+            The demo can be tried <a href="https://dashboard.markov-solutions.com/">here</a>.
           </p>
-
           <div>
             <iframe
               width={iframeWidth()}
@@ -148,7 +169,7 @@ const IndexPage = () => {
           </p>
           <Link to="/cookup">
             {" "}
-            <Img fluid={data.image.childImageSharp.fluid} />
+            <Img fluid={data.imageCookup.childImageSharp.fluid} />
           </Link>
         </ProjectCard>
       </Content>
