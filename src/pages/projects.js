@@ -85,6 +85,23 @@ const IndexPage = () => {
       <Content>
         <h1>Projects</h1>
         <ProjectCard>
+          <h2>RemNote</h2>
+          <p>
+            Learn more on <a href="https://www.remnote.io">RemNote.io</a>.
+          </p>
+          <div>
+            <iframe
+              width={iframeWidth()}
+              height={iframeHeight()}
+              title="RemNote - The Note-taking App EVERY Student Needs. NOW."
+              src="https://www.youtube.com/embed/M2U61vHfQSQ"
+              frameborder="1"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullscreen
+            ></iframe>
+          </div>
+        </ProjectCard>
+        <ProjectCard>
           <h2>Learning Library</h2>
           <p>
             A crowdsources library with links to resources about: Learning-Psychology, Note-Taking, Spaced Repetition, Memory, Visual Learning, Machine Learning, Attention, Creative thinking, Mental Models, Knowledge Representation, Reading, Connected Thought, Edtech, Learning-journey, and more.
