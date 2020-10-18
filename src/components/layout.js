@@ -36,7 +36,18 @@ const GatsbyLink = styled.a`
 
 const Footer = styled.footer`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+
+  a {
+    margin-bottom: 20px;
+
+  }
+
+  p {
+    margin-top: .5rem;
+  }
 `
 
 const FAicon = styled(FontAwesomeIcon)`
@@ -98,12 +109,6 @@ const Layout = ({ children }) => (
                 size="lg"
               ></FAicon>
             </a>
-            <a href="https://www.codewars.com/users/MoritzW" target="_blank">
-              <FAicon
-                icon={faUserNinja}
-                //icon={["fa", "user-ninja"]}
-              ></FAicon>
-            </a>
             <a href="https://angel.co/u/moritz-wallawitsch" target="_blank">
               <FAicon
                 //icon={faTwitter} //"fab fa-angellist"
@@ -114,8 +119,9 @@ const Layout = ({ children }) => (
             <p>
               Moritz Wallawitsch © {new Date().getFullYear()}, Built with
               {` `}
+              <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
             </p>
-            <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
+
           </Footer>
         </Content>
       </>
