@@ -10,7 +10,7 @@ Course: STS Academic Reading (STS_02, SS2020)
 Semester: Spring 2020
 Assessor: Dr. Fabian Geier
 
-[Content](#content)auto
+[Content](#content)
 
 - [1 Introduction](#1-introduction)
   - [1.1 Focus](#11-focus)
