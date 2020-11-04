@@ -2,7 +2,7 @@
 title: "If Medium would be more like Wikipedia: Decentralized Autonomous Organizations in open-source"
 date: "2019-07-15"
 draft: false
-path: "/blog/Open-source_software_platforms"
+path: "/blog/decentralized-autonomous-organizations-in-open-source"
 ---
 
 July 15, 2020
