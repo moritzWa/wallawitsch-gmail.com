@@ -12,7 +12,7 @@ const OuterContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  height: 78vh;
+  height: 62vh;
 `
 
 const Description = styled.p`
@@ -38,7 +38,7 @@ const LandingBio = () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <OuterContainer>
         <Container>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>

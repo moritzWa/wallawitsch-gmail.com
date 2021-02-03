@@ -40,13 +40,19 @@ const Footer = styled.footer`
   justify-content: center;
   align-items: center;
 
+  /* position: absolute;
+  bottom: 0;
+  min-height: 5.5rem; */
+  margin: 1rem;
+
+  margin-top: 5rem;
+
   a {
     margin-bottom: 20px;
-
   }
 
   p {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
 `
 
@@ -93,9 +99,9 @@ const Layout = ({ children }) => (
                 size="lg"
               ></FAicon>
             </a>
-            <a href="https://steemhunt.com/author/@moritzw" target="_blank">
+            {/* <a href="https://steemhunt.com/author/@moritzw" target="_blank">
               <FAicon icon={faAtom} size="lg"></FAicon>
-            </a>
+            </a> */}
             <a href="https://www.linkedin.com/in/moritzw/" target="_blank">
               <FAicon icon={["fab", "linkedin"]} size="lg"></FAicon>
             </a>
@@ -121,7 +127,6 @@ const Layout = ({ children }) => (
               {` `}
               <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
             </p>
-
           </Footer>
         </Content>
       </>
