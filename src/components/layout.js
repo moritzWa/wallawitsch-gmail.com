@@ -26,7 +26,7 @@ import "./layout.css"
 const Content = styled.div`
   margin: 0 auto;
   max-width: 860px;
-  padding: 0 1.0875rem 1rem;
+  padding: 0 16px 16px;
   padding-top: 0;
 `
 
@@ -40,12 +40,10 @@ const Footer = styled.footer`
   justify-content: center;
   align-items: center;
 
-  /* position: absolute;
+  position: fixed;
   bottom: 0;
-  min-height: 5.5rem; */
+  min-height: 5.5rem;
   margin: 1rem;
-
-  margin-top: 5rem;
 
   a {
     margin-bottom: 20px;

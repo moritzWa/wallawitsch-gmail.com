@@ -10,7 +10,7 @@ import SEO from "../components/seo"
 const Content = styled.div`
   margin: 0 auto;
   max-width: 860px;
-  padding: 1.45rem 1.0875rem;
+  padding: 24px 16px;
   @media (max-width: 400px) {
     padding: 0px;
   }
@@ -21,7 +21,7 @@ const ProjectCard = styled.div`
   border-radius: 1.5rem;
   max-width: 50rem;
   max-height: 50rem;
-  padding: 2rem;
+  padding: 32px;
   margin: 3rem 0;
   :hover {
     box-shadow: 0px 5px 20px #a9c9cc;
@@ -33,11 +33,12 @@ const ProjectCard = styled.div`
 
 let iframeWidth = () =>
   typeof window !== "undefined"
-    ? `${window.innerWidth < 730 ? window.innerWidth * 0.7 : 705}px`
+    ? `${window.innerWidth < 860 ? window.innerWidth - 2 * 32 - 4 * 16 : 735}px`
     : "560px"
+
 let iframeHeight = () =>
   typeof window !== "undefined"
-    ? `${(window.innerWidth < 730 ? window.innerWidth * 0.7 : 705) * 0.59}px`
+    ? `${(window.innerWidth < 860 ? window.innerWidth * 0.7 : 705) * 0.59}px`
     : "315px"
 
 const IndexPage = () => {
@@ -104,7 +105,11 @@ const IndexPage = () => {
         <ProjectCard>
           <h2>Learning Library</h2>
           <p>
-            A crowdsources library with links to resources about: Learning-Psychology, Note-Taking, Spaced Repetition, Memory, Visual Learning, Machine Learning, Attention, Creative thinking, Mental Models, Knowledge Representation, Reading, Connected Thought, Edtech, Learning-journey, and more.
+            A crowdsources library with links to resources about:
+            Learning-Psychology, Note-Taking, Spaced Repetition, Memory, Visual
+            Learning, Machine Learning, Attention, Creative thinking, Mental
+            Models, Knowledge Representation, Reading, Connected Thought,
+            Edtech, Learning-journey, and more.
           </p>
           <div>
             <Link to="https://www.notion.so/Learning-Library-2ecb646b5e1e4d5c8274c73c3fbb2541">
@@ -116,8 +121,8 @@ const IndexPage = () => {
         <ProjectCard>
           <h2>Extractly - Document Data Extraction AI Dashboard</h2>
           <p>
-            I build a Dashboard for a Data-extraction-AI with
-            React-Typescript which is similar to
+            I build a Dashboard for a Data-extraction-AI with React-Typescript
+            which is similar to
             <a href="https://rossum.ai/product/">rossum.ai</a>. This AI was
             originally developed for{" "}
             <a href="https://www.rechnung.de/">Rechnung.de</a>. More about the
@@ -125,7 +130,8 @@ const IndexPage = () => {
             <a href="https://markov-solutions.com/portfolio/en/">
               markov-solutions.com.
             </a>{" "}
-            The demo can be tried <a href="https://dashboard.markov-solutions.com/">here</a>.
+            The demo can be tried{" "}
+            <a href="https://dashboard.markov-solutions.com/">here</a>.
           </p>
           <div>
             <iframe
