@@ -112,12 +112,12 @@ const Layout = ({ children }) => (
           <a href="https://www.linkedin.com/in/moritzw/" target="_blank">
             <FAicon icon={["fab", "linkedin"]} size="lg"></FAicon>
           </a>
-          <a
+          {/*  <a
             href="https://www.researchgate.net/profile/Moritz_Wallawitsch"
             target="_blank"
           >
             <FAicon size="lg" icon={["fab", "researchgate"]} size="lg"></FAicon>
-          </a>
+          </a> */}
           <a href="https://angel.co/u/moritz-wallawitsch" target="_blank">
             <FAicon
               //icon={faTwitter} //"fab fa-angellist"

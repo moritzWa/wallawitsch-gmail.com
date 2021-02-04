@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -15,6 +15,8 @@ const Content = styled.div`
 `
 
 const IndexPage = () => {
+  window.location = "https://moritz.digital/blog/cas"
+
   return (
     <Layout>
       <SEO title="Projects" eywords={[`projects`, `MERN`, `react`]} />

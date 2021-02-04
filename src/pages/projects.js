@@ -64,6 +64,17 @@ const IndexPage = () => {
             }
           }
         }
+        imageStudyJourney: file(relativePath: { eq: "studyJourney.png" }) {
+          id
+          childImageSharp {
+            fixed {
+              ...GatsbyImageSharpFixed
+            }
+            fluid(maxWidth: 900, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         imageLibrary: file(relativePath: { eq: "learningLibrary.png" }) {
           id
           childImageSharp {
@@ -88,7 +99,9 @@ const IndexPage = () => {
         <ProjectCard>
           <h2>RemNote</h2>
           <p>
-            Learn more on <a href="https://www.remnote.io">RemNote.io</a>.
+            <a href="https://www.remnote.io">RemNote.io</a> is Your Thinking and
+            Learning Workspace. Our vision is to reinvent how people learn,
+            think, and collaborate. I'm a Co-Founder of RemNote.
           </p>
           <div>
             <iframe
@@ -100,6 +113,19 @@ const IndexPage = () => {
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullscreen
             ></iframe>
+          </div>
+        </ProjectCard>
+        <ProjectCard>
+          <h2>Study Journey</h2>
+          <p>
+            The personalized curriculum planner for the digital age. I'm
+            currently less involved in the project.
+          </p>
+          <div>
+            <Link to="https://studyjourney.de/about">
+              {" "}
+              <Img fluid={data.imageStudyJourney.childImageSharp.fluid} />
+            </Link>
           </div>
         </ProjectCard>
         <ProjectCard>
@@ -122,12 +148,12 @@ const IndexPage = () => {
           <h2>Extractly - Document Data Extraction AI Dashboard</h2>
           <p>
             I build a Dashboard for a Data-extraction-AI with React-Typescript
-            which is similar to
+            which is similar to{" "}
             <a href="https://rossum.ai/product/">rossum.ai</a>. This AI was
             originally developed for{" "}
             <a href="https://www.rechnung.de/">Rechnung.de</a>. More about the
             project can be found on{" "}
-            <a href="https://markov-solutions.com/portfolio/en/">
+            <a href="https://markov-solutions.com/datenextraktion">
               markov-solutions.com.
             </a>{" "}
             The demo can be tried{" "}
