@@ -1,6 +1,6 @@
 ---
 title: "The Learning-Psychology of Software Engineering"
-date: "2019-06-06"
+date: "2020-04-01"
 draft: false
 path: "/blog/The_Psychology_of_learning_Software_Engineering"
 ---

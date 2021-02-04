@@ -1,6 +1,6 @@
 ---
 title: "If Medium would be more like Wikipedia: Decentralized Autonomous Organizations in open-source"
-date: "2019-07-15"
+date: "2020-07-15"
 draft: false
 path: "/blog/decentralized-autonomous-organizations-in-open-source"
 ---
