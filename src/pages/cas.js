@@ -27,7 +27,8 @@ const IndexPage = () => {
           <a href="https://www.remnote.io/a/cognition-augmentation-software-v1/601b10bbc39b680034b2d17a">
             here
           </a>
-          .
+          . You can also read the whole Essay on my blog{" "}
+          <a href="https://moritz.digital/blog/cas">here</a>.
         </p>
       </Content>
     </Layout>
