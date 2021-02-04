@@ -5,6 +5,8 @@ draft: false
 path: "/blog/cas"
 ---
 
+<!-- test -->
+
 This article aims to create a more precise terminology and to give an overview of the progress and state of Cognition Augmentation Software. You can view the original RemNote article [here](https://www.remnote.io/a/cognition-augmentation-software-v1/601b10bbc39b680034b2d17a).
 
 - [Thinking vs. Cognition](#thinking-vs-cognition)
