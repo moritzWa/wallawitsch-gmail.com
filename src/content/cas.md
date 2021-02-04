@@ -1,6 +1,6 @@
 ---
 title: "Cognition Augmentation Software"
-date: "2019-07-15"
+date: "2021-01-31"
 draft: false
 path: "/blog/cas"
 ---
