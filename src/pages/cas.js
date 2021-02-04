@@ -15,7 +15,9 @@ const Content = styled.div`
 `
 
 const IndexPage = () => {
-  window.location = "https://moritz.digital/blog/cas"
+  if (typeof window !== "undefined") {
+    window.location = "https://moritz.digital/blog/cas"
+  }
 
   return (
     <Layout>
