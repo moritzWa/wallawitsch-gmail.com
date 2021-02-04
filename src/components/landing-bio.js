@@ -12,7 +12,7 @@ const OuterContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  height: 62vh;
+  height: 75vh;
 `
 
 const Description = styled.p`
