@@ -87,6 +87,7 @@ sup {
 }
 img {
   border-style: none;
+  /*  border-radius: 5px; */
 }
 
 img:hover {
@@ -463,7 +464,8 @@ iframe {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  border-radius: 10px;
+  border: none;
 }
 hr {
   margin-left: 0;

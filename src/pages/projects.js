@@ -23,9 +23,14 @@ const ProjectCard = styled.div`
   max-height: 50rem;
   padding: 32px;
   margin: 3rem 0;
+
   :hover {
     box-shadow: 0px 5px 20px #a9c9cc;
     transition: all 0.2s ease-out;
+  }
+
+  img {
+    border-radius: 5px;
   }
 `
 
@@ -33,7 +38,13 @@ const ProjectCard = styled.div`
 
 let iframeWidth = () =>
   typeof window !== "undefined"
-    ? `${window.innerWidth < 860 ? window.innerWidth - 2 * 32 - 4 * 16 : 735}px`
+    ? `${
+        window.innerWidth < 400
+          ? window.innerWidth - 2 * 32 - 2 * 16
+          : window.innerWidth < 860
+          ? window.innerWidth - 2 * 32 - 4 * 16
+          : 735
+      }px`
     : "560px"
 
 let iframeHeight = () =>
@@ -103,17 +114,16 @@ const IndexPage = () => {
             Learning Workspace. Our vision is to reinvent how people learn,
             think, and collaborate. I'm a Co-Founder of RemNote.
           </p>
-          <div>
-            <iframe
-              width={iframeWidth()}
-              height={iframeHeight()}
-              title="RemNote - The Note-taking App EVERY Student Needs. NOW."
-              src="https://www.youtube.com/embed/M2U61vHfQSQ"
-              frameborder="1"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullscreen
-            ></iframe>
-          </div>
+
+          <iframe
+            width={iframeWidth()}
+            height={iframeHeight()}
+            title="RemNote - The Note-taking App EVERY Student Needs. NOW."
+            src="https://www.youtube.com/embed/M2U61vHfQSQ"
+            frameborder="1"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullscreen
+          ></iframe>
         </ProjectCard>
         <ProjectCard>
           <h2>Study Journey</h2>
