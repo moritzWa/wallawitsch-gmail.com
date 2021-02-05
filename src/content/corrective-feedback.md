@@ -116,7 +116,7 @@ Minervaâ€™s assessment system allows faculty to follow each individual studentâ€
 
 Furthermore, they expand on the type of feedback they provide by formative assessments:
 
-> We focus on formative rather than summative assessment (i.e., we prioritize low-stakes feedback provided in the early and middle stages of learning over high-stakes exam scores arriving at the end) and are intensely concerned with transparency and reliability in this process. \_(p. 59).
+> We focus on formative rather than summative assessment (i.e., we prioritize low-stakes feedback provided in the early and middle stages of learning over high-stakes exam scores arriving at the end) and are intensely concerned with transparency and reliability in this process. (p. 59).
 
 Moreover, students perform about 4-5 (arts and humanities, natural science, business, social science) or 6-13 (computer science) of these low stakes formative assignments throughout the semester. This assessment schedule stands in stark contrast with CODE Students that only perform one assessment at the semester end for each module.
 
