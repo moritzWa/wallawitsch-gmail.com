@@ -5,14 +5,6 @@ draft: false
 path: "/blog/corrective-feedback"
 ---
 
-<!-- test -->
-
-# Corrective Feedback At Modern Educational Institutions
-
-## Moritz Wallawitsch CODE University of Applied Sciences
-
-- [Corrective Feedback At Modern Educational Institutions](#corrective-feedback-at-modern-educational-institutions)
-  - [Moritz Wallawitsch CODE University of Applied Sciences](#moritz-wallawitsch-code-university-of-applied-sciences)
 - [1. Introduction](#1-introduction)
 - [2. Context and Theory Background](#2-context-and-theory-background)
   - [1.1 Tinkering](#11-tinkering)

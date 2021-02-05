@@ -34,7 +34,7 @@ const Content = styled.div`
   max-width: 860px;
   padding: 0 16px 16px;
   padding-top: 0;
-  padding-bottom: 2.5rem;
+  padding-bottom: 5.5rem;
 `
 
 const GatsbyLink = styled.a`
