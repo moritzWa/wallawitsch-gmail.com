@@ -86,7 +86,7 @@ I'm optimistic that, given the technical feasibility, we will see the first [int
 
 # Outlook, Market, and RemNote
 
-The future for CAS is bright and made inevitable through the acceleration of technology standards by these three factors described by Satyanarayanan and Davies in their paper:
+The future for CAS is bright and made inevitable through the acceleration of technology standards. One can describe three of those technology factors as:
 
 - superior sensing and capturing systems
   - e.g., the possibility of continuous collection of memory cues through life-logging
@@ -95,7 +95,7 @@ The future for CAS is bright and made inevitable through the acceleration of tec
 
 In their Essay, Michael Nielsen and Andy Matuschak describe the difficulty for developers of Tools For Thought of preventing copy-cats. They give the examples of Adobe, which invested heavily in developing their products and is now copied or disrupted by cloud-based companies like Figma. Considering the economic drivers discussed, one can be optimistic that future CAS (or Cognitive technology Using Artificial Intelligence) that leverage proprietary AI and AR technology will have less of those difficulties.
 
-As mentioned, many innovations we take for granted today originated out of AC research. However, to date, most of the research is intended for and was funded by military and defense agencies ([Drexler at al. 2007](https://link.springer.com/chapter/10.1007/978-3-540-73216-7_48)). This narrow focus might leave open a huge opportunity and an unaddressed consumer market of a growing number of knowledge workers. After all, the technologies developed as part of the research shares the same goal of productivity improvements as the [\$102.98](https://www.prnewswire.com/news-releases/productivity-management-software-market-size-worth-102-98-billion-by-2027-grand-view-research-inc-301120852.html) Billion productivity software market.
+As mentioned, many innovations we take for granted today originated out of AC research. However, to date, most of the research is intended for and was funded by military and defense agencies ([Drexler at al. 2007](https://link.springer.com/chapter/10.1007/978-3-540-73216-7_48)). This narrow focus might leave open a huge opportunity and an unaddressed consumer market of a growing number of knowledge workers. After all, the technologies developed as part of the research share the same goal of productivity improvements as the [\$102.98](https://www.prnewswire.com/news-releases/productivity-management-software-market-size-worth-102-98-billion-by-2027-grand-view-research-inc-301120852.html) Billion productivity software market.
 
 We can describe [RemNote](https://www.remnote.io/) as CAS. Its integrated Spaced Repetition System acts as a memory augmentation exploiting the Ebbinghaus Forgetting Curve. Its referencing features could be described as a Cognitive technology that lets its user reference concepts and construct new ones out of building blocks of other concepts.
 Future features like the "Connection-recommendation" would be a Cognitive technology Using Artificial Intelligence. It will be driven by an Artificial Intelligence-graph-algorithm that identifies [Structural Holes](https://en.wikipedia.org/wiki/Structural_holes) in the graph of a user's notes.
