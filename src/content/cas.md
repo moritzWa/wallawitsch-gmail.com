@@ -17,7 +17,7 @@ This article aims to create a more precise terminology and to give an overview o
   - [Cognitive State measurement](#cognitive-state-measurement)
   - [Augmented Reality](#augmented-reality)
   - [Cognition Augmentation Software for Learning](#cognition-augmentation-software-for-learning)
-- [Outlook, and RemNote](#outlook-and-remnote)
+- [Outlook, Market, and RemNote](#outlook-market-and-remnote)
 
 # Thinking vs. Cognition
 
@@ -62,7 +62,7 @@ A related concept, [Personal knowledge management
 
 # New types of devices and interfaces
 
-In his seminal work from 1945 [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush describes the [Memex](https://en.wikipedia.org/wiki/Memex) (a very advanced association-based PKM). It should be able to retrieve and reproduced items many years old. He also describes its sharing-features as "Wholly new forms of encyclopedias will appear, ready-made with a mesh of associative trails running through them, ready to be dropped into the Memex and there amplified. The lawyer has at his touch the associated opinions and decisions of his whole experience, and of the experience of friends and authorities. ..."
+In his seminal work from 1945 [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush describes the [Memex](https://en.wikipedia.org/wiki/Memex) (a very advanced association-based PKM). It should be able to retrieve and reproduced items many years old. He also describes its sharing-features as _"Wholly new forms of encyclopedias will appear, ready-made with a mesh of associative trails running through them, ready to be dropped into the Memex and there amplified. The lawyer has at his touch the associated opinions and decisions of his whole experience, and of the experience of friends and authorities. ..."_
 
 But there has not been actual scientific work to engineer a cognition augmenting device as he describes it. This changed recently. In June 2019, two researchers published their work [Augmenting Cognition Through Edge Computing](https://eprints.lancs.ac.uk/id/eprint/132846/1/cogment2019.pdf), describing such a system's possible architecture. Mainly, The RECALL Augmenting Memory architecture. It can, for example, help users restore context before their next conference or class. The student, walking to a lecture, could be primed with a summary of it through his smart glasses, surfacing relevant information. The description of the "Memory vault" in this architecture exhibits a high similarity to Vannevar Bush's Memex.
 
@@ -78,11 +78,13 @@ AR Interfaces leverage the cognitive processing speed of visuospatial data, e.g.
 
 ## Cognition Augmentation Software for Learning
 
-When augmenting cognitive processes, one option to look for the most useful application is to look for the most cognitively taxing tasks. Learning is one of them. In [Life 3.0](https://en.wikipedia.org/wiki/Life_3.0), Max Tegmark, describes a fictional AI, Prometheus, that helps humans learn: "Given any person's knowledge and abilities, Prometheus could determine the fastest way for them to learn any new subject in a manner that kept them highly engaged and motivated to continue and produce the corresponding optimized videos, reading materials, exercises, and other learning tools. [...] by leveraging Prometheus' movie-making talents, the video segments would truly engage, providing powerful metaphors that you would relate to, leaving you craving to learn more."
+When augmenting cognitive processes, one option to look for the most useful application is to look for the most cognitively taxing tasks. Learning is one of them. In [Life 3.0](https://en.wikipedia.org/wiki/Life_3.0), Max Tegmark, describes a fictional AI, Prometheus, that helps humans learn:
 
-I'm optimistic that, given the technical feasibility, we will see the first [intelligent tutoring systems](https://en.wikipedia.org/wiki/Intelligent_tutoring_system#:~:text=An%20intelligent%20tutoring%20system%20(ITS,intervention%20from%20a%20human%20teacher.) in the coming decades.
+> "Given any person's knowledge and abilities, Prometheus could determine the fastest way for them to learn any new subject in a manner that kept them highly engaged and motivated to continue and produce the corresponding optimized videos, reading materials, exercises, and other learning tools. [...] by leveraging Prometheus' movie-making talents, the video segments would truly engage, providing powerful metaphors that you would relate to, leaving you craving to learn more."
 
-# Outlook, and RemNote
+I'm optimistic that, given the technical feasibility, we will see the first [intelligent tutoring systems](https://en.wikipedia.org/wiki/Intelligent_tutoring_system) in the coming decades.
+
+# Outlook, Market, and RemNote
 
 The future for CAS is bright and made inevitable through the acceleration of technology standards by these three factors described by Satyanarayanan and Davies in their paper:
 
@@ -92,6 +94,8 @@ The future for CAS is bright and made inevitable through the acceleration of tec
 - pervasiveness of displays for displaying memory cues
 
 In their Essay, Michael Nielsen and Andy Matuschak describe the difficulty for developers of Tools For Thought of preventing copy-cats. They give the examples of Adobe, which invested heavily in developing their products and is now copied or disrupted by cloud-based companies like Figma. Considering the economic drivers discussed, one can be optimistic that future CAS (or Cognitive technology Using Artificial Intelligence) that leverage proprietary AI and AR technology will have less of those difficulties.
+
+As mentioned, many innovations we take for granted today originated out of AC research. But to this date, most of the research is intended for and was funded by military and defense agencies ([Drexler at al. 2007](https://link.springer.com/chapter/10.1007/978-3-540-73216-7_48)). This narrow focus might leave open a huge opportunity and an unaddressed consumer market of a growing number of knowledge workers. After all, the technologies developed as part of the research shares the same goal of productivity improvements as the [\$102.98](https://www.prnewswire.com/news-releases/productivity-management-software-market-size-worth-102-98-billion-by-2027-grand-view-research-inc-301120852.html) Billion productivity software market.
 
 We can describe [RemNote](https://www.remnote.io/) as CAS. Its integrated Spaced Repetition acts as a memory augmentation exploiting the Ebbinghaus Forgetting Curve. Its referencing features could be described as a Cognitive technology that lets its user reference construct new concepts out of building blocks of other concepts. Future features like the "Connection-recommendation" would be Cognitive technology Using Artificial Intelligence. It will be driven by an Artificial Intelligence-graph-algorithm that identifies [Structural Holes](https://en.wikipedia.org/wiki/Structural_holes) in the graph of a user's notes.
 
