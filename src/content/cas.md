@@ -1,5 +1,5 @@
 ---
-title: "Cognition Augmentation Software"
+title: "Cognition Augmentation Software (CAS)"
 date: "2021-01-31"
 draft: false
 path: "/blog/cas"
