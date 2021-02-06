@@ -2,7 +2,7 @@
 title: "The Learning-Psychology of Software Engineering"
 date: "2020-04-01"
 draft: false
-path: "/blog/The_Psychology_of_learning_Software_Engineering"
+path: "/blog/The_Psychology_of_Learning_Software_Engineering"
 ---
 
 In the last few years, I learned a lot about learning because I generally strive to be as effective and productive at what I do. However, I noticed that in Software engineering, which is a unique profession in many regards, there is only a little advice on this topic. Searching the internet has brought up some resources like the book [Pragmatic Thinking and Learning by Andy Hunt](https://www.goodreads.com/book/show/3063393-pragmatic-thinking-and-learning).

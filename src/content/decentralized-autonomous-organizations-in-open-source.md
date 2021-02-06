@@ -1,5 +1,5 @@
 ---
-title: "If Medium would be more like Wikipedia: Decentralized Autonomous Organizations in open-source"
+title: "If Medium Would be More Like Wikipedia: Decentralized Autonomous Organizations in Open-Source"
 date: "2020-07-15"
 draft: false
 path: "/blog/decentralized-autonomous-organizations-in-open-source"
@@ -10,22 +10,31 @@ Course: STS Academic Reading (STS_02, SS2020)
 Semester: Spring 2020
 Assessor: Dr. Fabian Geier
 
-[Content](#content)
-
 - [1 Introduction](#1-introduction)
+
   - [1.1 Focus](#11-focus)
-- [2 Open vs Proprietary Internet Platform](#2-open-vs-proprietary-internet-platform)
-  - [2.1 open-source software and Marketplaces and Platforms](#21-open-source-software-and-marketplaces-and-platforms)
-    - [2.1.2 Marketplaces and Platforms](#212-marketplaces-and-platforms)
-    - [2.1.1 open-source software](#211-open-source-software)
-  - [2.2 DApps and DAOs](#22-dapps-and-daos)
-    - [2.2.1 Example Steemit.com](#221-example-steemitcom)
-  - [2.3 DApp Management Tools](#23-dapp-management-tools)
-    - [2.3.1 Colony](#231-colony)
-    - [2.3.2 Aragon](#232-aragon)
-    - [2.3.3 Others](#233-others)
-    - [2.3.4 Design of Tools](#234-design-of-tools)
-- [3 Comparison of the economics of different organization types](#3-comparison-of-the-economics-of-different-organization-types)
+  - [2 Open vs Proprietary Internet Platform](#2-open-vs-proprietary-internet-platform)
+    - [2.1 open-source software and Marketplaces and Platforms](#21-open-source-software-and-marketplaces-and-platforms)
+      - [2.1.2 Marketplaces and Platforms](#212-marketplaces-and-platforms)
+      - [2.1.1 open-source software](#211-open-source-software)
+    - [2.2 DApps and DAOs](#22-dapps-and-daos)
+      - [2.2.1 Example _Steemit.com_](#221-example-steemitcom)
+    - [2.3 DApp Management Tools](#23-dapp-management-tools)
+      - [2.3.1 Colony](#231-colony)
+      - [2.3.2 Aragon](#232-aragon)
+      - [2.3.3 Others](#233-others)
+      - [2.3.4 Design of Tools](#234-design-of-tools)
+  - [3 Comparison of the economics of different organization types](#3-comparison-of-the-economics-of-different-organization-types)
+    - [3.1 Company Founding and Economics](#31-company-founding-and-economics)
+    - [3.2 Decentralization](#32-decentralization)
+    - [3.3 Platform-Risks](#33-platform-risks)
+    - [3.4 Comparison Summary](#34-comparison-summary)
+    - [4 Obstacles for Open Platforms and DApp Platforms](#4-obstacles-for-open-platforms-and-dapp-platforms)
+      - [4.1 Organizational Obstacles for Open Platforms](#41-organizational-obstacles-for-open-platforms)
+      - [4.2 Technological Obstacles for DApp Platforms](#42-technological-obstacles-for-dapp-platforms)
+      - [4.3 User Experience](#43-user-experience)
+  - [5 Conclusion](#5-conclusion)
+  - [References](#references)
 
   - [3.1 Company Founding and Economics](#31-company-founding-and-economics)
   - [3.2 Decentralization](#32-decentralization)
