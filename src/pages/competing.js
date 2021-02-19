@@ -23,7 +23,18 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Projects" eywords={[`projects`, `MERN`, `react`]} />
-      <Content></Content>
+      <Content>
+        <h1>Summary: Competing in The Age Of AI: Strategy and Leadership</h1>
+        <p>
+          This is a bullet style summary of the book 'Competing in the Age of
+          AI: Strategy and Leadership When Algorithms and Networks Run the
+          World' by Marco Iansiti and Karim R. Lakhani. You can read it{" "}
+          <a href="https://www.remnote.io/a/competing-in-the-age-of-ai-strategy-and-leadership/602f77f919149600349ecae1">
+            here
+          </a>
+          .
+        </p>
+      </Content>
     </Layout>
   )
 }
