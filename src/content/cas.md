@@ -52,7 +52,7 @@ A second useful and related framework is the one of [Distributed Cognition](http
 
 In 2016, Michael Nielsen, in his essay [Thought as a Technology](http://cognitivemedium.com/tat/), described the term cognitive technology as an external artifact designed by humans, which can be internalized and used as a substrate for cognition. These are representations invented by other people, such as words, graphs, maps, algebra, mathematical diagrams, etc. He further differentiated between Models of Augmentation as Cognitive Transformation (e.g., spreadsheet) or Cognitive Outsourcing (e.g., calculator).
 
-A year later, in a paper titled, [Using Artificial Intelligence to Augment Human Intelligence](https://distill.pub/2017/aia/) he and his colleague Shan Carter expanded the concept into differentiating between Cognitive technology using Computers and Cognitive technology using Artificial Intelligence. The former is expanding human thought itself, meaning the computer performed action becomes a new generalizable concept. An example they give is the concept of applying a stamp in Photoshop to another layer. This concept is then generalized as `computer, [new type of action] this [new type of representation for a newly imagined class of object]`.
+A year later, in a paper titled, [Using Artificial Intelligence to Augment Human Intelligence](https://distill.pub/2017/aia/), he and his colleague Shan Carter expanded the concept into differentiating between Cognitive technology using Computers and Cognitive technology using Artificial Intelligence. The former is expanding human thought itself, meaning the computer performed action becomes a new generalizable concept. An example they give is the concept of applying a stamp in Photoshop to another layer. This concept is then generalized as `computer, [new type of action] this [new type of representation for a newly imagined class of object]`.
 
 Cognitive technology using Artificial Intelligence discovers and reveals deep principles in ways meaningful to the user and helps us invent new cognitive technologies. The example they give here is an Interactive Generative Adversarial Model (iGAN) that, for example, shows a fashion designer useful operation as new primitives that he can then internalize.
 
@@ -91,13 +91,13 @@ When augmenting cognitive processes, the most useful application is to look for 
 
 What Tegmark describes is called an [intelligent tutoring system](<(https://en.wikipedia.org/wiki/Intelligent_tutoring_system)>).
 
-I'm optimistic that, given the technical feasibility and the fast advancements in the field of reinforment learning, we will see the first generally intelligent tutoring systems in the coming decades.
+I'm optimistic that, given the technical feasibility and the fast advancements in the field of reinforcement learning, we will see the first generally intelligent tutoring systems in the coming decades.
 
 # Outlook, Market, and RemNote
 
-Summarizing we can draw distiction between tools for thought and CAS and its tangents:
+Summarizing, we can draw the following distinction between tools for thought and CAS and its tangents:
 
-<!-- ![The Learning Psychology of Software Engineering](/src/images/MWlogo.png) -->
+![The Learning Psychology of Software Engineering](/src/images/cas_map.png)
 
 The future for CAS is bright and made inevitable through the acceleration of technology standards. One can describe three of those technology factors as:
 

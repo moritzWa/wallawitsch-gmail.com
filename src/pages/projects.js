@@ -75,6 +75,17 @@ const IndexPage = () => {
             }
           }
         }
+        imagefocuscam: file(relativePath: { eq: "focuscam.png" }) {
+          id
+          childImageSharp {
+            fixed {
+              ...GatsbyImageSharpFixed
+            }
+            fluid(maxWidth: 900, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         imageStudyJourney: file(relativePath: { eq: "studyJourney.png" }) {
           id
           childImageSharp {
@@ -124,6 +135,19 @@ const IndexPage = () => {
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullscreen
           ></iframe>
+        </ProjectCard>
+        <ProjectCard>
+          <h2>FocusCam</h2>
+          <p>
+            A web app that tracks helps you improve your focus using computer
+            vision.
+          </p>
+          <div>
+            <Link to="https://focuscam.netlify.app/">
+              {" "}
+              <Img fluid={data.imagefocuscam.childImageSharp.fluid} />
+            </Link>
+          </div>
         </ProjectCard>
         <ProjectCard>
           <h2>Study Journey</h2>
