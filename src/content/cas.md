@@ -5,7 +5,7 @@ draft: false
 path: "/blog/cas"
 ---
 
-This article aims to create a more precise terminology and to gives an overview of the progress and state of Cognition Augmentation Software (CAS). You can view the original RemNote article [here](https://www.remnote.io/a/cognition-augmentation-software-v1/601b10bbc39b680034b2d17a).
+This article aims to create a more precise terminology and to give an overview of the progress and state of Cognition Augmentation Software (CAS). You can view the original RemNote article [here](https://www.remnote.io/a/cognition-augmentation-software-v1/601b10bbc39b680034b2d17a).
 
 - [Thinking vs. Cognition](#thinking-vs-cognition)
   - [Tools For Thought](#tools-for-thought)
