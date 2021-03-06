@@ -13,7 +13,7 @@ This article aims to create a more precise terminology and to give an overview o
   - [History](#history)
   - [Cognitive Technology](#cognitive-technology)
   - [Personal Knowledge Management](#personal-knowledge-management)
-- [New types of devices and interfaces](#new-types-of-devices-and-interfaces)
+- [New types of augmenting devices and interfaces](#new-types-of-augmenting-devices-and-interfaces)
   - [Cognitive State measurement](#cognitive-state-measurement)
   - [Augmented Reality](#augmented-reality)
   - [Cognition Augmentation Software for Learning](#cognition-augmentation-software-for-learning)
@@ -63,13 +63,27 @@ Although the descriptions of those two terms still come with less clearly define
 A related concept, [Personal knowledge management
 ](https://en.wikipedia.org/wiki/Personal_knowledge_management) (PKM), is one way to Augmented Cognition. By helping us manage and externalize our knowledge, these systems enable us to work with a more significant knowledge base. In a broad sense, the accumulation of knowledge and know-how by networks of Personbytes can be seen as the basis for scientific and economic development described by César Hidalgo in his [Why Information Grows](https://books.google.de/books/about/Why_Information_Grows.html?id=hgOyBQAAQBAJ). PKM systems are often called "Second Brains.", but most of them act more as a storage medium and replica of its user's actual body of knowledge. At [RemNote](https://www.remnote.io/), we try to not just help you create a copy of your knowledge but an extension and augmentation of your brain.
 
-# New types of devices and interfaces
+# New types of augmenting devices and interfaces
 
-In his seminal work from 1945 [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush describes the abilities of the [Memex](https://en.wikipedia.org/wiki/Memex) (a very advanced association-based PKM). It, for example, should be able to retrieve and reproduce items many years old. He also describes its sharing-features as _"Wholly new forms of encyclopedias will appear, ready-made with a mesh of associative trails running through them, ready to be dropped into the Memex and there amplified. The lawyer has at his touch the associated opinions and decisions of his whole experience, and of the experience of friends and authorities. ..."_
+In his seminal work from 1945 [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush describes the abilities of the [Memex](https://en.wikipedia.org/wiki/Memex) (a very advanced association-based PKM).
+
+![The Learning Psychology of Software Engineering](https://hpc-internal.carnegiescience.edu/img/MemexWikiImage.jpg)
+
+It, for example, should be able to retrieve and reproduce items many years old. He also describes its sharing-features as _"Wholly new forms of encyclopedias will appear, ready-made with a mesh of associative trails running through them, ready to be dropped into the Memex and there amplified. The lawyer has at his touch the associated opinions and decisions of his whole experience, and of the experience of friends and authorities. ..."_
 
 But there has not been actual scientific work to engineer a cognition augmenting device as he describes it. However, this changed recently. In June 2019, two researchers published their work [Augmenting Cognition Through Edge Computing](https://eprints.lancs.ac.uk/id/eprint/132846/1/cogment2019.pdf), describing such a system's possible architecture: The RECALL Augmenting Memory architecture. It can, for example, help users restore context before their next conference or class. The student, walking to a lecture, could be primed with a summary of it through his smart glasses, surfacing relevant information. The description of the "Memory vault" in this architecture exhibits a high similarity to Vannevar Bush's Memex.
 
-But have people start building such a device? Recent [leaks about the startup Hu.ma.ne](https://www.youtube.com/watch?v=Kd34OMunStg) hinted that they are building a contextual recall memory device that can help with memory recall.
+**But have people start building such a device?**
+
+[Recent leaks](https://www.youtube.com/watch?v=Kd34OMunStg) about the startup [Hu.ma.ne](Hu.ma.ne) hinted that they are building a contextual recall memory device in the form of a lapel pin. Though, their job listings on LinkedIn also listed a BCI engineer, so the thrill remains, especially since they stated that it would have the same kind of impact as the iPhone.
+
+The more intriguing and already usable projuct in this realm under development might be [hu.man.ai] https://www.hu.man.ai/about). Suman Kanuganti and his colleagues are building a personal ai for memory storage. More precisely, they state that the product will safekeep the thoughts and memories that define you with your personal AI secured by a blockchain. A very compelling value proposition, I think.
+
+![The Learning Psychology of Software Engineering](./images/../../images/humanai.png)
+
+They also produced this very moving teaser video:
+
+[![The Learning Psychology of Software Engineering](https://img.youtube.com/vi/II5I3nR5kkY/0.jpg)](https://youtu.be/II5I3nR5kkY)
 
 ## Cognitive State measurement
 
