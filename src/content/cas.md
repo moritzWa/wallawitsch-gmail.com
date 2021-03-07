@@ -114,7 +114,7 @@ I'm optimistic that, given the technical feasibility and the fast advancements i
 
 Summarizing, we can draw the following distinction between tools for thought and CAS and its tangents:
 
-![The Learning Psychology of Software Engineering](/src/images/cas_map.png)
+![The Learning Psychology of Software Engineering](./images/../../images/cas_map.png)
 
 The future for CAS is bright and made inevitable through the acceleration of technology standards. One can describe three of those technology factors as:
 
