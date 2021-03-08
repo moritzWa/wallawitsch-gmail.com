@@ -73,17 +73,19 @@ It, for example, should be able to retrieve and reproduce items many years old. 
 
 But there has not been actual scientific work to engineer a cognition augmenting device as he describes it. However, this changed recently. In June 2019, two researchers published their work [Augmenting Cognition Through Edge Computing](https://eprints.lancs.ac.uk/id/eprint/132846/1/cogment2019.pdf), describing such a system's possible architecture: The RECALL Augmenting Memory architecture. It can, for example, help users restore context before their next conference or class. The student, walking to a lecture, could be primed with a summary of it through his smart glasses, surfacing relevant information. The description of the "Memory vault" in this architecture exhibits a high similarity to Vannevar Bush's Memex.
 
-**But have people start building such a device?**
+**But have people start building such a applications?**
 
 [Recent leaks](https://www.youtube.com/watch?v=Kd34OMunStg) about the startup [Hu.ma.ne](Hu.ma.ne) hinted that they are building a contextual recall memory device in the form of a lapel pin. Though, their job listings on LinkedIn also listed a BCI engineer, so the thrill remains, especially since they stated that it would have the same kind of impact as the iPhone.
 
-The more intriguing and already usable projuct in this realm under development might be [hu.man.ai] https://www.hu.man.ai/about). Suman Kanuganti and his colleagues are building a personal ai for memory storage. More precisely, they state that the product will safekeep the thoughts and memories that define you with your personal AI secured by a blockchain. A very compelling value proposition, I think.
+The more intriguing and already usable projuct in this realm under development might be [hu.man.ai](https://www.hu.man.ai/about). Suman Kanuganti and his colleagues are building a personal ai for memory storage. More precisely, they state that the product will safekeep the thoughts and memories that define you with your personal AI secured by a blockchain. A very compelling value proposition, I think. This is a great example of memory augmentation using Artificial Intelligence.
 
 ![](./images/../../images/humanai.png)
 
 They also produced this very moving teaser video:
 
 ![](https://img.youtube.com/vi/II5I3nR5kkY/0.jpg)
+
+Another example of memory augmentation is RemNote. It's a tool for networked note-taking with a semlesly integrated [integrated spaced repetition system (SRS)](https://en.wikipedia.org/wiki/Spaced_repetition). Currently the offered spaced repetition algorithms are deterministic and do not utilize any kind of artificial intelligence. Other SRS software products already showed the [successful application of Machine learning](https://www.youtube.com/watch?v=3QOs6D5nkRQ&t=12s).
 
 ## Cognitive State measurement
 
@@ -133,4 +135,4 @@ Future features like the "Connection-recommendation" would be a Cognitive techno
 
 If you are building or researching Cognition Augmentation Software (CAS), I would be happy to have a chat!
 
-Lastly, if you are a talented engineer, designer, or operator interested in working on cutting-edge productivity and learning software; [We are hiring](https://www.remnote.io/careers) and would love to hear from you.
+Lastly, if you are a talented engineer, designer, or operator interested in working on cutting-edge productivity and learning software; [We are hiring](https://www.remnote.io/careers) and would love to hear from you!
