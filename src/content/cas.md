@@ -83,7 +83,7 @@ The more intriguing and already usable projuct in this realm under development m
 
 They also produced this very moving teaser video:
 
-![](https://img.youtube.com/vi/II5I3nR5kkY/0.jpg)
+[![](./../images/humanai2.png)](https://www.youtube.com/watch?v=II5I3nR5kkY)
 
 Another example of memory augmentation is RemNote. It's a tool for networked note-taking with a seamlessly integrated [integrated spaced repetition system (SRS)](https://en.wikipedia.org/wiki/Spaced_repetition). Currently, the offered spaced repetition algorithms are deterministic and do not utilize any artificial intelligence. Other SRS software products already showed the [successful application of Machine learning](https://www.youtube.com/watch?v=3QOs6D5nkRQ&t=12s).
 
