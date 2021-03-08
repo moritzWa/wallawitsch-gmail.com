@@ -67,7 +67,7 @@ A related concept, [Personal knowledge management
 
 In his seminal work from 1945 [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush describes the abilities of the [Memex](https://en.wikipedia.org/wiki/Memex) (a very advanced association-based PKM).
 
-![The Learning Psychology of Software Engineering](https://hpc-internal.carnegiescience.edu/img/MemexWikiImage.jpg)
+![](https://hpc-internal.carnegiescience.edu/img/MemexWikiImage.jpg)
 
 It, for example, should be able to retrieve and reproduce items many years old. He also describes its sharing-features as _"Wholly new forms of encyclopedias will appear, ready-made with a mesh of associative trails running through them, ready to be dropped into the Memex and there amplified. The lawyer has at his touch the associated opinions and decisions of his whole experience, and of the experience of friends and authorities. ..."_
 
@@ -82,7 +82,8 @@ The more intriguing and already usable projuct in this realm under development m
 ![](./images/../../images/humanai.png)
 
 They also produced this very moving teaser video:
-[![](https://img.youtube.com/vi/II5I3nR5kkY/0.jpg)](https://youtu.be/II5I3nR5kkY)
+
+![](https://img.youtube.com/vi/II5I3nR5kkY/0.jpg)
 
 ## Cognitive State measurement
 
@@ -106,9 +107,9 @@ When augmenting cognitive processes, the most useful application is to look for 
 
 > "Given any person's knowledge and abilities, Prometheus could determine the fastest way for them to learn any new subject in a manner that kept them highly engaged and motivated to continue and produce the corresponding optimized videos, reading materials, exercises, and other learning tools. [...] by leveraging Prometheus' movie-making talents, the video segments would truly engage, providing powerful metaphors that you would relate to, leaving you craving to learn more."
 
-What Tegmark describes is called an [intelligent tutoring system](<(https://en.wikipedia.org/wiki/Intelligent_tutoring_system)>).
+What Tegmark describes is called a very advanced [intelligent tutoring system](https://en.wikipedia.org/wiki/Intelligent_tutoring_system).
 
-I'm optimistic that, given the technical feasibility and the fast advancements in the field of reinforcement learning, we will see the first generally intelligent tutoring systems in the coming decades.
+I'm optimistic that, given the technical feasibility and the fast advancements in the field of reinforcement learning, we will see the first more generally intelligent tutoring systems, similar to the fictional Prometheus, in the coming decades. Those will function in a more adaptable way taking into account the students' cognitive state and psychological profile.
 
 # Outlook, Market, and RemNote
 
@@ -131,3 +132,5 @@ We can describe [RemNote](https://www.remnote.io/) as CAS. Its integrated Spaced
 Future features like the "Connection-recommendation" would be a Cognitive technology using Artificial Intelligence. It will be driven by an Artificial Intelligence-graph-algorithm that identifies [Structural Holes](https://en.wikipedia.org/wiki/Structural_holes) in the graph of a user's notes.
 
 If you are building or researching Cognition Augmentation Software (CAS), I would be happy to have a chat!
+
+Lastly, if you are a talented engineer, designer, or operator interested in working on cutting-edge productivity and learning software; [We are hiring](https://www.remnote.io/careers) and would love to hear from you.
