@@ -139,8 +139,7 @@ const IndexPage = () => {
         <ProjectCard>
           <h2>FocusCam</h2>
           <p>
-            A web app that tracks helps you improve your focus using computer
-            vision.
+            A web app that helps you improve your focus using computer vision.
           </p>
           <div>
             <Link to="https://focuscam.netlify.app/">
