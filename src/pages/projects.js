@@ -45,12 +45,12 @@ let iframeWidth = () =>
           ? window.innerWidth - 2 * 32 - 4 * 16
           : 735
       }px`
-    : "560px"
+    : "732px"
 
 let iframeHeight = () =>
   typeof window !== "undefined"
     ? `${(window.innerWidth < 860 ? window.innerWidth * 0.7 : 705) * 0.59}px`
-    : "315px"
+    : "411px"
 
 const IndexPage = () => {
   if (typeof window !== "undefined") {
@@ -121,9 +121,12 @@ const IndexPage = () => {
         <ProjectCard>
           <h2>RemNote</h2>
           <p>
-            <a href="https://www.remnote.io">RemNote.io</a> is Your Thinking and
-            Learning Workspace. Our vision is to reinvent how people learn,
-            think, and collaborate. I'm a Co-Founder of RemNote.
+            <a rel="noopener noreferrer" href="https://www.remnote.io">
+              RemNote.io
+            </a>{" "}
+            is Your Thinking and Learning Workspace. Our vision is to reinvent
+            how people learn, think, and collaborate. I'm a Co-Founder of
+            RemNote.
           </p>
 
           <iframe
@@ -139,8 +142,11 @@ const IndexPage = () => {
         <ProjectCard>
           <h2>FocusCam</h2>
           <p>
-            <a href="https://focuscam.app">FocusCam.app</a> is a web app that
-            helps you improve your focus using computer vision.
+            <a rel="noopener noreferrer" href="https://focuscam.app">
+              FocusCam.app
+            </a>{" "}
+            is a web app that helps you improve your focus using computer
+            vision.
           </p>
           <div>
             <Link to="https://focuscam.app/">
@@ -183,15 +189,28 @@ const IndexPage = () => {
           <p>
             I build a Dashboard for a Data-extraction-AI with React-Typescript
             which is similar to{" "}
-            <a href="https://rossum.ai/product/">rossum.ai</a>. This AI was
-            originally developed for{" "}
-            <a href="https://www.rechnung.de/">Rechnung.de</a>. More about the
-            project can be found on{" "}
-            <a href="https://markov-solutions.com/datenextraktion">
+            <a rel="noopener noreferrer" href="https://rossum.ai/product/">
+              rossum.ai
+            </a>
+            . This AI was originally developed for{" "}
+            <a rel="noopener noreferrer" href="https://www.rechnung.de/">
+              Rechnung.de
+            </a>
+            . More about the project can be found on{" "}
+            <a
+              rel="noopener noreferrer"
+              href="https://markov-solutions.com/datenextraktion"
+            >
               markov-solutions.com.
             </a>{" "}
             The demo can be tried{" "}
-            <a href="https://dashboard.markov-solutions.com/">here</a>.
+            <a
+              rel="noopener noreferrer"
+              href="https://dashboard.markov-solutions.com/"
+            >
+              here
+            </a>
+            .
           </p>
           <div>
             <iframe
@@ -213,7 +232,10 @@ const IndexPage = () => {
             The most simple spaced repetition app you have ever seen. Completely
             detached from the lessons, notes, videos and other forms of
             knowledge you want to learn. More about the application on{" "}
-            <a href="https://repio.app">repio.app</a>.
+            <a rel="noopener noreferrer" href="https://repio.app">
+              repio.app
+            </a>
+            .
           </p>
           <div>
             <iframe
