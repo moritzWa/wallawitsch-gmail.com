@@ -139,10 +139,11 @@ const IndexPage = () => {
         <ProjectCard>
           <h2>FocusCam</h2>
           <p>
-            A web app that helps you improve your focus using computer vision.
+            <a href="https://focuscam.app">FocusCam.app</a> is a web app that
+            helps you improve your focus using computer vision.
           </p>
           <div>
-            <Link to="https://focuscam.netlify.app/">
+            <Link to="https://focuscam.app/">
               {" "}
               <Img fluid={data.imagefocuscam.childImageSharp.fluid} />
             </Link>
