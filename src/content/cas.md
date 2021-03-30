@@ -5,7 +5,7 @@ draft: false
 path: "/blog/cas"
 ---
 
-For millions of years, humans have used tools to augment their evolutionary abilities. A few thousand years ago, we invented writing and thereby enabled the sharing and externalizing of information and ushering in the bronze age. A few decades ago, we created the computer, inaugurating the information age. This new tool drastically expanded our abilities to share, internalize and work with knowledge.
+For millions of years, humans have used tools to augment their evolutionary abilities. A few thousand years ago, we invented writing and thereby enabled the sharing and externalizing of information, ushering in the bronze age. A few decades ago, we created the computer, inaugurating the information age. This new tool drastically expanded our abilities to share, internalize and work with knowledge.
 
 Tools that augment our cognitive abilities with the help of computers are still in their infancy and will have a massive influence on the ages to come. This article aims to create a more precise terminology and to give an overview of the progress and state of Cognition Augmentation Software.
 
