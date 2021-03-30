@@ -14,6 +14,7 @@ This article aims to create a more precise terminology and to give an overview o
   - [Tools For Thought](#tools-for-thought)
 - [Augmented Cognition](#augmented-cognition)
   - [History](#history)
+  - [Distributed Cognition and Social Computing](#distributed-cognition-and-social-computing)
   - [Cognitive Technology](#cognitive-technology)
   - [Personal Knowledge Management](#personal-knowledge-management)
 - [New types of augmenting devices and interfaces](#new-types-of-augmenting-devices-and-interfaces)
@@ -49,7 +50,13 @@ The main conference of the field is the [Augmented Cognition (AC) Conference](ht
 
 The research field today relies heavily on the terminology of [Cognitive Load Theory](https://en.wikipedia.org/wiki/Cognitive_load). As we have seen, a big focus of the domain is to reduce Cognitive Overload. One way to do this is by developing schemas that act as memory templates coded into Long Term Memory by Working memory. If we help the users create new or surface relevant schemas, like an effective Mnemonic, we will be able to reduce their Cognitive Load, increase their productivity, and reduce the rate of error.
 
-A second useful and related framework is the one of [Distributed Cognition](https://www.lri.fr/~mbl/Stanford/CS477/papers/DistributedCognition-TOCHI.pdf). It stated that cognitive processes are defined by the functional relationship among elements that participate in them and not by the spatial colocation of its elements. It also provides us with a framework to think about Collaborative Cognition, a system in which multiple intelligent agents collaboratively work on a problem. add refrence to human ai
+## Distributed Cognition and Social Computing
+
+A second useful and related framework is the one of [Distributed Cognition](https://www.lri.fr/~mbl/Stanford/CS477/papers/DistributedCognition-TOCHI.pdf). It stated that cognitive processes are defined by the functional relationship among elements that participate in them and not by the spatial colocation of its elements. It also provides us with a framework to think about Collaborative Cognition, a system in which multiple intelligent agents collaboratively work on a problem. As example for such a collaboration are cognitive processes like brainstormings to which multiple humans and machines contribute.
+
+This new and emargent field was termad [Social Computing](https://ieeexplore.ieee.org/document/9241509) by James Evans in September 2020. He discribes it as a the combination of socially inspired computer science and computationally enhanced social scienc, in which machines act as complements rather then substitutes of human cognition.
+
+One goal of the dicipiline is to engineer new social interaction between humans and machines that allow us to communicate better by taking into account human biases.
 
 We will look at cloud-architectures that describe the combination of cognitive modules for augmentation interfaces later.
 
