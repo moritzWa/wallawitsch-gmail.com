@@ -74,6 +74,8 @@ How this process can look like is demonstrated well and amusingly in one of [Two
 
 Although the descriptions of the two terms, provided my Nielsen and Carter, still come with less clearly defined terms of "deep principles," "in a meaningful way," and "human thought," they might be summarized as the distinction between CAS and CAAI, Cognitive Augmentation AI using our terminology.
 
+Its still early for software tools like those iGANs explored above but we can already infer that _Offering predefined elements (shapes, text, symbols) directly exemplifies how a digital tool can augment human intelligence by allowing the user to get into the creative flow faster and minimize unnecessary construction work._, as Molly Mielke phrased it in her thesis [Computers and Creativity](https://www.mollymielke.com/cc).
+
 ## Personal Knowledge Management
 
 A related concept, [Personal knowledge management
@@ -95,7 +97,7 @@ But there has not been actual scientific work to engineer a cognition augmenting
 
 The more intriguing and already usable projuct in this realm under development might be [hu.man.ai](https://www.hu.man.ai/about). Suman Kanuganti and his colleagues are building a personal ai for memory storage. More precisely, they state that the product will safekeep the thoughts and memories that define you with your personal AI secured by a blockchain. A very compelling value proposition, I think. This is a great example of memory augmentation using Artificial Intelligence.
 
-![](./images/../../images/humanai.png)
+Human AI's Head of Design, Kristie Kaiser, also [describes the application of Ambient Computing concepts as part of thier product](https://medium.com/humanailabs/the-future-of-remembering-article-iii-effortless-recall-ux-for-everyone-2b16b5443a29). A user experince that is semlessly integrated in the flow of the users life and that requires no conscious action.
 
 They also produced this very moving teaser video:
 
