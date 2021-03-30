@@ -1,17 +1,21 @@
 ---
-title: "The Past, Present, and Future of Cognition Augmentation Software"
+title: "The Past, Present, and Future of Tools for Thought and Cognition Augmentation Software"
 date: "2021-01-31"
 draft: false
 path: "/blog/cas"
 ---
 
-This article aims to create a more precise terminology and to give an overview of the progress and state of Cognition Augmentation Software.
+For millions of years, humans have used tools to augment their evolutionary abilities. A few thousand years ago, we invented writing and thereby enabled the sharing and externalizing of information and ushering in the bronze age. A few decades ago, we invented the computer, inaugurating the information age. This new tool drastically expanded our abilities to share, internalize and work with knowledge.
+
+Tools that augment our cognitive abilities with the help of computers are still in their infancy and will have a massive influence on the ages to come. This article aims to create a more precise terminology and to give an overview of the progress and state of Cognition Augmentation Software.
 
 <!-- You can view the original RemNote article [here]
 (https://www.remnote.io/a/cognition-augmentation-software-v1/601b10bbc39b680034b2d17a). -->
 
-- [Thinking vs. Cognition](#thinking-vs-cognition)
-  - [Tools For Thought](#tools-for-thought)
+# Content
+
+- [Content](#content)
+- [Tools For Thought Terminologly](#tools-for-thought-terminologly)
 - [Augmented Cognition](#augmented-cognition)
   - [History](#history)
   - [Distributed Cognition and Social Computing](#distributed-cognition-and-social-computing)
@@ -30,15 +34,13 @@ This article aims to create a more precise terminology and to give an overview o
 <br />
 <br />
 
-# Thinking vs. Cognition
+# Tools For Thought Terminologly
 
 Common norms, terminology, and tractable definitions have guided many advancements in science and technology. However, the term "Tools For Thought", which we use to describe tools like RemNote or Roam Research, is not clearly defined.
 
-## Tools For Thought
+In their work, [How can we develop transformative Tools For Thought? ](https://numinous.productions/ttft/) Michael Nielsen and Andy Matuschak describe the history of the term. The first usage of this term, they explain, goes back to the early computer pioneers. One problem with this term is that it does not differentiate between cognitive, e.g., cultural-evolutionary tools (like Hindu-Arabic numerals) and software tools, for example, note-taking apps.
 
-In their work, [How can we develop transformative Tools For Thought? ](https://numinous.productions/ttft/) Michael Nielsen and Andy Matuschak describe the history of the term. The first usage of this term goes back to the early computer pioneers. In their essay, they state that they are using the word as a catch-all phrase. The main problem I see with it is that it does not differentiate between cognitive, e.g., cultural-evolutionary tools (like Hindu-Arabic numerals) and SaaS-like tools.
-
-Thinking and Thoughts are also not clearly defined. For example, thought can be indulgence into an imaginative or pleasurable experience and, therefore, something that we don't try to improve through a tool's usage.
+Thinking and Thoughts are also not clearly defined, which makes the use of this term even harder. In this essay I will use the term Cognition Augmentation Software to describe software that augments our cognition.
 
 # Augmented Cognition
 
