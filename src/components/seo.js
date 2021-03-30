@@ -44,6 +44,11 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: title,
         },
         {
+          property: `og:image`,
+          content:
+            "https://pbs.twimg.com/profile_banners/1168140132567912448/1614727852/1500x500",
+        },
+        {
           property: `og:description`,
           content: metaDescription,
         },

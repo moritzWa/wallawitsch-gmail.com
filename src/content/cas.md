@@ -15,9 +15,10 @@ This article aims to create a more precise terminology and to give an overview o
 - [Augmented Cognition](#augmented-cognition)
   - [History](#history)
   - [Distributed Cognition and Social Computing](#distributed-cognition-and-social-computing)
-  - [Cognitive Technology](#cognitive-technology)
   - [Personal Knowledge Management](#personal-knowledge-management)
 - [New types of augmenting devices and interfaces](#new-types-of-augmenting-devices-and-interfaces)
+  - [Cognitive Technology](#cognitive-technology)
+  - [Memory and Knowledge Augmentation](#memory-and-knowledge-augmentation)
   - [Cognitive State measurement](#cognitive-state-measurement)
   - [Augmented Reality](#augmented-reality)
   - [Cognition Augmentation Software for Learning](#cognition-augmentation-software-for-learning)
@@ -63,6 +64,13 @@ One goal of the discipline is to engineer new social interaction between humans 
 
 We will look at cloud-architectures that describe the combination of cognitive modules for augmentation interfaces later.
 
+## Personal Knowledge Management
+
+A related concept, [Personal knowledge management
+](https://en.wikipedia.org/wiki/Personal_knowledge_management) (PKM), is one way to Augmented Cognition. By helping us manage and externalize our knowledge, these systems enable us to work with a more significant knowledge base. In a broad sense, the accumulation of knowledge and know-how by networks of Personbytes can be seen as the basis for scientific and economic development described by César Hidalgo in his [Why Information Grows](https://books.google.de/books/about/Why_Information_Grows.html?id=hgOyBQAAQBAJ). PKM systems are often called "Second Brains.", but most of them act more as a storage medium and replica of its user's actual body of knowledge. At [RemNote](https://www.remnote.io/), we try to not just help you create a copy of your knowledge but an extension and augmentation of your brain.
+
+# New types of augmenting devices and interfaces
+
 ## Cognitive Technology
 
 In 2016, Michael Nielsen, in his essay [Thought as a Technology](http://cognitivemedium.com/tat/), described the term cognitive technology as an external artifact designed by humans, which can be internalized and used as a substrate for cognition. These are representations invented by other people, such as words, graphs, maps, algebra, mathematical diagrams, etc. He further differentiated between Models of Augmentation as Cognitive Transformation (e.g., spreadsheet) or Cognitive Outsourcing (e.g., calculator).
@@ -79,12 +87,7 @@ Although the descriptions of the two terms, provided by Nielsen and Carter, stil
 
 It's still early for software tools like those iGANs explored above, but we can already infer that _Offering predefined elements (shapes, text, symbols) directly exemplifies how a digital tool can augment human intelligence by allowing the user to get into the creative flow faster and minimize unnecessary construction work._, as Molly Mielke phrased it in her thesis [Computers and Creativity](https://www.mollymielke.com/cc).
 
-## Personal Knowledge Management
-
-A related concept, [Personal knowledge management
-](https://en.wikipedia.org/wiki/Personal_knowledge_management) (PKM), is one way to Augmented Cognition. By helping us manage and externalize our knowledge, these systems enable us to work with a more significant knowledge base. In a broad sense, the accumulation of knowledge and know-how by networks of Personbytes can be seen as the basis for scientific and economic development described by César Hidalgo in his [Why Information Grows](https://books.google.de/books/about/Why_Information_Grows.html?id=hgOyBQAAQBAJ). PKM systems are often called "Second Brains.", but most of them act more as a storage medium and replica of its user's actual body of knowledge. At [RemNote](https://www.remnote.io/), we try to not just help you create a copy of your knowledge but an extension and augmentation of your brain.
-
-# New types of augmenting devices and interfaces
+## Memory and Knowledge Augmentation
 
 In his seminal work from 1945 [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush describes the abilities of the [Memex](https://en.wikipedia.org/wiki/Memex) (a very advanced association-based PKM).
 
