@@ -22,10 +22,10 @@ This article aims to create a more precise terminology and to give an overview o
   - [Cognitive State measurement](#cognitive-state-measurement)
   - [Augmented Reality](#augmented-reality)
   - [Cognition Augmentation Software for Learning](#cognition-augmentation-software-for-learning)
-- [Outlook, Market, and RemNote](#outlook-market-and-remnote)
+- [Outlook, Market, and Trends](#outlook-market-and-trends)
   - [Trends](#trends)
   - [Development](#development)
-  - [Closing](#closing)
+  - [RemNote](#remnote)
 
 # Thinking vs. Cognition
 
@@ -137,7 +137,7 @@ What Tegmark describes is called a very advanced [intelligent tutoring system](h
 
 I'm optimistic that, given the technical feasibility and the fast advancements in the field of reinforcement learning, we will see the first more generally intelligent tutoring systems, similar to the fictional Prometheus, in the coming decades. Those will function in a more adaptable way taking into account the students' cognitive state and psychological profile.
 
-# Outlook, Market, and RemNote
+# Outlook, Market, and Trends
 
 Summarizing, we can draw the following distinction between tools for thought and CAS and its tangents:
 
@@ -145,10 +145,13 @@ Summarizing, we can draw the following distinction between tools for thought and
 
 ## Trends
 
-The future for CAS is bright and made inevitable through the acceleration of technology standards. One can describe three of those technology factors as:
+For many decades we have been removing points of friction that bottleneck our cognitive capabilities. A Google search that does not fall below our 250 millisecond limit of perceivable time differences will always feel too slow while waiting to absorb the information we searched for.
 
-- superior sensing and capturing systems
-  - e.g., the possibility of continuous collection of memory cues through life-logging
+The introduction of the typewriter and computer removed the major bottleneck of handwriting for externalizing our thoughts. In his book [Smarter Than You Think](https://www.amazon.com/Smarter-Than-You-Think-Technology/dp/1594204454), Clive Thompson cites the research of the Stanford University literary scholar Andrea Lunsford, that examined freshman entry essays from 1917 until the present. Lunsford found that while grammatical error rates have stayed the same, the length and complexity of the essays have dramatically increased. "It's not that the kids of 1917 were stupider," says Thompson.1 "It's just that their tools were getting in the way of their thought."
+
+One can only surmise what the next hundred years will do to internalize and externalize information using software tools. Three major technology standards influence the future of these tools and their accelerated development:
+
+- superior sensing and capturing systems (e.g., the possibility of continuous collection of memory cues through life-logging)
 - advances in audio and image processing enabling widespread mining of stored cues for proactive presentation
 - pervasiveness of displays for displaying memory cues
 
@@ -158,7 +161,7 @@ In their essay, Michael Nielsen and Andy Matuschak describe the difficulty for d
 
 As mentioned, many innovations we take for granted today originated out of AC research. However, to date, most of the research is intended for and was funded by military and defense agencies ([Drexler at al. 2007](https://link.springer.com/chapter/10.1007/978-3-540-73216-7_48)). This narrow focus might leave open a huge opportunity and an unaddressed consumer market of a growing number of knowledge workers. After all, the technologies developed as part of the research share the same goal of productivity improvements as the [\$102.98](https://www.prnewswire.com/news-releases/productivity-management-software-market-size-worth-102-98-billion-by-2027-grand-view-research-inc-301120852.html) Billion productivity software market.
 
-## Closing
+## RemNote
 
 We can describe [RemNote](https://www.remnote.io/) as CAS. Its integrated Spaced Repetition System (SRS) acts as a memory augmentation exploiting the Ebbinghaus Forgetting Curve. Its referencing features could be described as a Cognitive technology that lets its user reference concepts and construct new ones out of building blocks of other concepts.
 
