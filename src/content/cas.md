@@ -22,6 +22,9 @@ This article aims to create a more precise terminology and to give an overview o
   - [Augmented Reality](#augmented-reality)
   - [Cognition Augmentation Software for Learning](#cognition-augmentation-software-for-learning)
 - [Outlook, Market, and RemNote](#outlook-market-and-remnote)
+  - [Trends](#trends)
+  - [Development](#development)
+  - [Closing](#closing)
 
 # Thinking vs. Cognition
 
@@ -52,11 +55,11 @@ The research field today relies heavily on the terminology of [Cognitive Load Th
 
 ## Distributed Cognition and Social Computing
 
-A second useful and related framework is the one of [Distributed Cognition](https://www.lri.fr/~mbl/Stanford/CS477/papers/DistributedCognition-TOCHI.pdf). It stated that cognitive processes are defined by the functional relationship among elements that participate in them and not by the spatial colocation of its elements. It also provides us with a framework to think about Collaborative Cognition, a system in which multiple intelligent agents collaboratively work on a problem. As example for such a collaboration are cognitive processes like brainstormings to which multiple humans and machines contribute.
+A second useful and related framework is the one of [Distributed Cognition](https://www.lri.fr/~mbl/Stanford/CS477/papers/DistributedCognition-TOCHI.pdf). It stated that cognitive processes are defined by the functional relationship among elements that participate in them and not by the spatial colocation of its elements. It also provides us with a framework to think about Collaborative Cognition, a system in which multiple intelligent agents collaboratively work on a problem. Examples for such a collaboration are cognitive processes like brainstorming to which multiple humans and machines contribute.
 
-This new and emargent field was termad [Social Computing](https://ieeexplore.ieee.org/document/9241509) by James Evans in September 2020. He discribes it as a the combination of socially inspired computer science and computationally enhanced social scienc, in which machines act as complements rather then substitutes of human cognition.
+This new and emergent field was termed [Social Computing](https://ieeexplore.ieee.org/document/9241509) by James Evans in September 2020. He describes it as the combination of socially inspired computer science and computationally enhanced social science, in which machines act as complements rather than substitutes for human cognition.
 
-One goal of the dicipiline is to engineer new social interaction between humans and machines that allow us to communicate better by taking into account human biases.
+One goal of the discipline is to engineer new social interaction between humans and machines that allows us to communicate better by taking into account human biases.
 
 We will look at cloud-architectures that describe the combination of cognitive modules for augmentation interfaces later.
 
@@ -68,13 +71,13 @@ A year later, in a paper titled, [Using Artificial Intelligence to Augment Human
 
 Cognitive technology using Artificial Intelligence discovers and reveals deep principles in ways meaningful to the user and helps us invent new cognitive technologies. The example they give here is an Interactive Generative Adversarial Model (iGAN) that, for example, shows a fashion designer useful operation as new primitives that he can then internalize.
 
-How this process can look like is demonstrated well and amusingly in one of [Two Minute Papers' recent videos](https://www.youtube.com/watch?v=B8RMUSmIGCI&t=2s), which he described as _artistic controle over images_.
+How this process can look like is demonstrated well and amusingly in one of [Two Minute Papers' recent videos](https://www.youtube.com/watch?v=B8RMUSmIGCI&t=2s), which he described as _artistic control over images_.
 
 ![](./images/../../images/gan.gif)
 
-Although the descriptions of the two terms, provided my Nielsen and Carter, still come with less clearly defined terms of "deep principles," "in a meaningful way," and "human thought," they might be summarized as the distinction between CAS and CAAI, Cognitive Augmentation AI using our terminology.
+Although the descriptions of the two terms, provided by Nielsen and Carter, still come with less clearly defined terms of "deep principles," "in a meaningful way," and "human thought," they help up draw a further categorization. For our purpose here, they might be summarized as the distinction between CAS and CAAI, Cognitive Augmentation AI using our terminology.
 
-Its still early for software tools like those iGANs explored above but we can already infer that _Offering predefined elements (shapes, text, symbols) directly exemplifies how a digital tool can augment human intelligence by allowing the user to get into the creative flow faster and minimize unnecessary construction work._, as Molly Mielke phrased it in her thesis [Computers and Creativity](https://www.mollymielke.com/cc).
+It's still early for software tools like those iGANs explored above, but we can already infer that _Offering predefined elements (shapes, text, symbols) directly exemplifies how a digital tool can augment human intelligence by allowing the user to get into the creative flow faster and minimize unnecessary construction work._, as Molly Mielke phrased it in her thesis [Computers and Creativity](https://www.mollymielke.com/cc).
 
 ## Personal Knowledge Management
 
@@ -91,13 +94,13 @@ It, for example, should be able to retrieve and reproduce items many years old. 
 
 But there has not been actual scientific work to engineer a cognition augmenting device as he describes it. However, this changed recently. In June 2019, two researchers published their work [Augmenting Cognition Through Edge Computing](https://eprints.lancs.ac.uk/id/eprint/132846/1/cogment2019.pdf), describing such a system's possible architecture: The RECALL Augmenting Memory architecture. It can, for example, help users restore context before their next conference or class. The student, walking to a lecture, could be primed with a summary of it through his smart glasses, surfacing relevant information. The description of the "Memory vault" in this architecture exhibits a high similarity to Vannevar Bush's Memex.
 
-**But have people start building such a applications?**
+**But have people start building such applications?**
 
 [Recent leaks](https://www.youtube.com/watch?v=Kd34OMunStg) about the startup [Hu.ma.ne](Hu.ma.ne) hinted that they are building a contextual recall memory device in the form of a lapel pin. Though, their job listings on LinkedIn also listed a BCI engineer, so the thrill remains, especially since they stated that it would have the same kind of impact as the iPhone.
 
-The more intriguing and already usable projuct in this realm under development might be [hu.man.ai](https://www.hu.man.ai/about). Suman Kanuganti and his colleagues are building a personal ai for memory storage. More precisely, they state that the product will safekeep the thoughts and memories that define you with your personal AI secured by a blockchain. A very compelling value proposition, I think. This is a great example of memory augmentation using Artificial Intelligence.
+The more intriguing and already usable project in this realm under development might be [hu.man.ai](https://www.hu.man.ai/about). Suman Kanuganti and his colleagues are building a personal ai for memory storage. More precisely, they state that the product will safekeep the thoughts and memories that define you with your personal AI secured by a blockchain. A very compelling value proposition, I think. This is a great example of memory augmentation using Artificial Intelligence.
 
-Human AI's Head of Design, Kristie Kaiser, also [describes the application of Ambient Computing concepts as part of thier product](https://medium.com/humanailabs/the-future-of-remembering-article-iii-effortless-recall-ux-for-everyone-2b16b5443a29). A user experince that is semlessly integrated in the flow of the users life and that requires no conscious action.
+Human AI's Head of Design, Kristie Kaiser, also [describes the application of Ambient Computing concepts as part of their product](https://medium.com/humanailabs/the-future-of-remembering-article-iii-effortless-recall-ux-for-everyone-2b16b5443a29). A user experience that is seamlessly integrated into the flow of the users' life and that requires no conscious action.
 
 They also produced this very moving teaser video:
 
@@ -137,6 +140,8 @@ Summarizing, we can draw the following distinction between tools for thought and
 
 ![The Learning Psychology of Software Engineering](./images/../../images/cas_map.png)
 
+## Trends
+
 The future for CAS is bright and made inevitable through the acceleration of technology standards. One can describe three of those technology factors as:
 
 - superior sensing and capturing systems
@@ -144,11 +149,16 @@ The future for CAS is bright and made inevitable through the acceleration of tec
 - advances in audio and image processing enabling widespread mining of stored cues for proactive presentation
 - pervasiveness of displays for displaying memory cues
 
+## Development
+
 In their essay, Michael Nielsen and Andy Matuschak describe the difficulty for developers of Tools For Thought to prevent copy-cats. They give the examples of Adobe, which invested heavily in developing their products and is now copied or disrupted by cloud-based companies like Figma. Considering the economic drivers discussed, one can be optimistic that future CAS (or Cognitive technology using Artificial Intelligence) that leverage proprietary AI and AR technology will have less of those difficulties.
 
 As mentioned, many innovations we take for granted today originated out of AC research. However, to date, most of the research is intended for and was funded by military and defense agencies ([Drexler at al. 2007](https://link.springer.com/chapter/10.1007/978-3-540-73216-7_48)). This narrow focus might leave open a huge opportunity and an unaddressed consumer market of a growing number of knowledge workers. After all, the technologies developed as part of the research share the same goal of productivity improvements as the [\$102.98](https://www.prnewswire.com/news-releases/productivity-management-software-market-size-worth-102-98-billion-by-2027-grand-view-research-inc-301120852.html) Billion productivity software market.
 
+## Closing
+
 We can describe [RemNote](https://www.remnote.io/) as CAS. Its integrated Spaced Repetition System (SRS) acts as a memory augmentation exploiting the Ebbinghaus Forgetting Curve. Its referencing features could be described as a Cognitive technology that lets its user reference concepts and construct new ones out of building blocks of other concepts.
+
 Future features like the "Connection-recommendation" would be a Cognitive technology using Artificial Intelligence. It will be driven by an Artificial Intelligence-graph-algorithm that identifies [Structural Holes](https://en.wikipedia.org/wiki/Structural_holes) in the graph of a user's notes.
 
 If you are building or researching Cognition Augmentation Software (CAS), I would be happy to have a chat!
