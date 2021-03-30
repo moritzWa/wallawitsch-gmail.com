@@ -65,7 +65,7 @@ How this process can look like is demonstrated well and amusingly in one of [Two
 
 ![](./images/../../images/gan.gif)
 
-Although the descriptions of those two terms still come with less clearly defined terms of "deep principles," "in a meaningful way," and "human thought," they might be summarized as the distinction between CAS and CAAI, Cognitive Augmentation AI.
+Although the descriptions of the two terms, provided my Nielsen and Carter, still come with less clearly defined terms of "deep principles," "in a meaningful way," and "human thought," they might be summarized as the distinction between CAS and CAAI, Cognitive Augmentation AI using our terminology.
 
 ## Personal Knowledge Management
 
