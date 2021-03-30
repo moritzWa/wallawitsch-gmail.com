@@ -32,7 +32,7 @@ This article aims to create a more precise terminology and to give an overview o
 
 # Thinking vs. Cognition
 
-As neuroscientists like to say, we need tractable definitions. However, the term "Tools For Thought", which we use to describe tools like RemNote or Roam Research, is not clearly defined.
+Common norms, terminology, and tractable definitions have guided many advancements in science and technology. However, the term "Tools For Thought", which we use to describe tools like RemNote or Roam Research, is not clearly defined.
 
 ## Tools For Thought
 
@@ -84,7 +84,6 @@ Cognitive technology using Artificial Intelligence discovers and reveals deep pr
 
 How this process can look like is demonstrated well and amusingly in one of [Two Minute Papers' recent videos](https://www.youtube.com/watch?v=B8RMUSmIGCI&t=2s), which he described as _artistic control over images_.
 
-![iGAN demontsration](./../images/gan.gif)
 ![iGAN demontsration](https://s4.gifyu.com/images/gan.gif)
 
 Although the descriptions of the two terms, provided by Nielsen and Carter, still come with less clearly defined terms of "deep principles," "in a meaningful way," and "human thought," they help up draw a further categorization. For our purpose here, they might be summarized as the distinction between CAS and CAAI, Cognitive Augmentation AI using our terminology.
