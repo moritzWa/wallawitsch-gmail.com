@@ -1,11 +1,14 @@
 ---
-title: "Cognition Augmentation Software (CAS)"
+title: "The Past, Present, and Future of Cognition Augmentation Software"
 date: "2021-01-31"
 draft: false
 path: "/blog/cas"
 ---
 
-This article aims to create a more precise terminology and to give an overview of the progress and state of Cognition Augmentation Software (CAS). You can view the original RemNote article [here](https://www.remnote.io/a/cognition-augmentation-software-v1/601b10bbc39b680034b2d17a).
+This article aims to create a more precise terminology and to give an overview of the progress and state of Cognition Augmentation Software.
+
+<!-- You can view the original RemNote article [here]
+(https://www.remnote.io/a/cognition-augmentation-software-v1/601b10bbc39b680034b2d17a). -->
 
 - [Thinking vs. Cognition](#thinking-vs-cognition)
   - [Tools For Thought](#tools-for-thought)
@@ -46,7 +49,9 @@ The main conference of the field is the [Augmented Cognition (AC) Conference](ht
 
 The research field today relies heavily on the terminology of [Cognitive Load Theory](https://en.wikipedia.org/wiki/Cognitive_load). As we have seen, a big focus of the domain is to reduce Cognitive Overload. One way to do this is by developing schemas that act as memory templates coded into Long Term Memory by Working memory. If we help the users create new or surface relevant schemas, like an effective Mnemonic, we will be able to reduce their Cognitive Load, increase their productivity, and reduce the rate of error.
 
-A second useful and related framework is the one of [Distributed Cognition](https://www.lri.fr/~mbl/Stanford/CS477/papers/DistributedCognition-TOCHI.pdf). It stated that cognitive processes are defined by the functional relationship among elements that participate in them and not by the spatial colocation of its elements. We will look at cloud-architectures that describe the combination of cognitive modules for augmentation interfaces later.
+A second useful and related framework is the one of [Distributed Cognition](https://www.lri.fr/~mbl/Stanford/CS477/papers/DistributedCognition-TOCHI.pdf). It stated that cognitive processes are defined by the functional relationship among elements that participate in them and not by the spatial colocation of its elements. It also provides us with a framework to think about Collaborative Cognition, a system in which multiple intelligent agents collaboratively work on a problem. add refrence to human ai
+
+We will look at cloud-architectures that describe the combination of cognitive modules for augmentation interfaces later.
 
 ## Cognitive Technology
 
@@ -55,6 +60,10 @@ In 2016, Michael Nielsen, in his essay [Thought as a Technology](http://cognitiv
 A year later, in a paper titled, [Using Artificial Intelligence to Augment Human Intelligence](https://distill.pub/2017/aia/), he and his colleague Shan Carter expanded the concept into differentiating between Cognitive technology using Computers and Cognitive technology using Artificial Intelligence. The former is expanding human thought itself, meaning the computer performed action becomes a new generalizable concept. An example they give is the concept of applying a stamp in Photoshop to another layer. This concept is then generalized as `computer, [new type of action] this [new type of representation for a newly imagined class of object]`.
 
 Cognitive technology using Artificial Intelligence discovers and reveals deep principles in ways meaningful to the user and helps us invent new cognitive technologies. The example they give here is an Interactive Generative Adversarial Model (iGAN) that, for example, shows a fashion designer useful operation as new primitives that he can then internalize.
+
+How this process can look like is demonstrated well and amusingly in one of [Two Minute Papers' recent videos](https://www.youtube.com/watch?v=B8RMUSmIGCI&t=2s), which he described as _artistic controle over images_.
+
+![](./images/../../images/gan.gif)
 
 Although the descriptions of those two terms still come with less clearly defined terms of "deep principles," "in a meaningful way," and "human thought," they might be summarized as the distinction between CAS and CAAI, Cognitive Augmentation AI.
 
