@@ -45,8 +45,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `og:image`,
-          content:
-            "https://pbs.twimg.com/profile_banners/1168140132567912448/1614727852/1500x500",
+          content: "https://i.imgur.com/s378HXa.jpg",
         },
         {
           property: `og:description`,
@@ -70,8 +69,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           property: `twitter:image`,
-          content:
-            "https://pbs.twimg.com/profile_banners/1168140132567912448/1614727852/1500x500",
+          content: "https://i.imgur.com/s378HXa.jpg",
         },
         {
           name: `twitter:description`,

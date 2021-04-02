@@ -135,7 +135,7 @@ As we saw in the list of Goals of the Augmented Cognition Program, a great deal 
 
 AR Interfaces leverage the cognitive processing speed of visuospatial data, e.g., the strong visuospatial perception that human evolution created. This is why they can be predicted to be the next paradigm of Human-computer interfaces. Those interfaces will give rise to many new ways of interacting with computation and new types of media. The advances in UX design show that interactions with digital interfaces become ever more natural and intuitive.
 
-![](https://miro.medium.com/max/2686/1*fLyJdCJa0FRqGpka7ptBmQ.png)
+![](./../images/ironman.jpg)
 
 What do we mean by intuitive here? An example of such an advancement in the development of the macintosh. Engineers and designers reduced the mouse interface's cognitive load by removing the second button and utilizing existing mental models. This design decision was brought forth by a memo titled 'One-Button Mouse' by the legendary Apple HCI scientist Larry Tesler (as explained in more detail in the book [Insanely great](https://books.google.com/books/about/Insanely_Great.html?id=Y6ZQAAAAMAAJ)).
 
