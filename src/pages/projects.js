@@ -17,17 +17,10 @@ const Content = styled.div`
 `
 
 const ProjectCard = styled.div`
-  box-shadow: 0px 2px 10px #a9c9cc;
-  border-radius: 1.5rem;
   max-width: 50rem;
   max-height: 50rem;
-  padding: 32px;
+  padding-bottom: 32px;
   margin: 3rem 0;
-
-  :hover {
-    box-shadow: 0px 5px 20px #a9c9cc;
-    transition: all 0.2s ease-out;
-  }
 
   img {
     border-radius: 5px;
