@@ -19,8 +19,7 @@ const Content = styled.div`
 const ProjectCard = styled.div`
   max-width: 50rem;
   max-height: 50rem;
-  padding-bottom: 32px;
-  margin: 3rem 0;
+  padding-bottom: 4rem;
 
   img {
     border-radius: 5px;
@@ -33,10 +32,10 @@ let iframeWidth = () =>
   typeof window !== "undefined"
     ? `${
         window.innerWidth < 400
-          ? window.innerWidth - 2 * 32 - 2 * 16
+          ? window.innerWidth - 2 * 16
           : window.innerWidth < 860
-          ? window.innerWidth - 2 * 32 - 4 * 16
-          : 735
+          ? window.innerWidth - 4 * 16
+          : 796
       }px`
     : "732px"
 
@@ -123,7 +122,7 @@ const IndexPage = () => {
       <Content>
         <h1>Projects</h1>
         <ProjectCard>
-          <h2>RemNote</h2>
+          <h3>RemNote</h3>
           <p>
             <a rel="noopener noreferrer" href="https://www.remnote.io">
               RemNote.io
@@ -144,7 +143,7 @@ const IndexPage = () => {
           ></iframe>
         </ProjectCard>
         <ProjectCard>
-          <h2>FocusCam</h2>
+          <h3>FocusCam</h3>
           <p>
             <a rel="noopener noreferrer" href="https://focuscam.app">
               FocusCam.app
@@ -160,7 +159,7 @@ const IndexPage = () => {
           </div>
         </ProjectCard>
         <ProjectCard>
-          <h2>Study Journey</h2>
+          <h3>Study Journey</h3>
           <p>
             The personalized curriculum planner for the digital age. I'm
             currently less involved in the project.
@@ -173,7 +172,7 @@ const IndexPage = () => {
           </div>
         </ProjectCard>
         <ProjectCard>
-          <h2>Learning Library</h2>
+          <h3>Learning Library</h3>
           <p>
             A crowdsources library with links to resources about:
             Learning-Psychology, Note-Taking, Spaced Repetition, Memory, Visual
@@ -189,7 +188,7 @@ const IndexPage = () => {
           </div>
         </ProjectCard>
         <ProjectCard>
-          <h2>Extractly - Document Data Extraction AI Dashboard</h2>
+          <h3>Extractly - Document Data Extraction AI Dashboard</h3>
           <p>
             I build a Dashboard for a Data-extraction-AI with React-Typescript
             which is similar to{" "}
@@ -229,9 +228,9 @@ const IndexPage = () => {
           </div>
         </ProjectCard>
         <ProjectCard>
-          <h2>
+          <h3>
             Repio - A simple spaced repetition app to help you remember to learn
-          </h2>
+          </h3>
           <p>
             The most simple spaced repetition app you have ever seen. Completely
             detached from the lessons, notes, videos and other forms of
@@ -254,7 +253,7 @@ const IndexPage = () => {
           </div>
         </ProjectCard>
         {/*  <ProjectCard>
-          <h2>Arcle - Social Bookmarking for great Articles</h2>
+          <h3>Arcle - Social Bookmarking for great Articles</h3>
           <p>
             This application is still in development and tries to improve the
             experience of finding great articles to read. A mockup of the open
@@ -263,7 +262,7 @@ const IndexPage = () => {
           <img src={arclemockup} />
         </ProjectCard> */}
         <ProjectCard>
-          <h2>Pivot Talks</h2>
+          <h3>Pivot Talks</h3>
           <p>
             An event I organized and interviewed{" "}
             <a href="https://en.wikipedia.org/wiki/Thomas_Bachem">
@@ -280,7 +279,7 @@ const IndexPage = () => {
         </ProjectCard>
 
         <ProjectCard>
-          <h2>Coocup Concept</h2>
+          <h3>Coocup Concept</h3>
           <p>
             The idea of this product was to bulid the AirBnb of Food. However,
             it turned out that there are some{" "}
