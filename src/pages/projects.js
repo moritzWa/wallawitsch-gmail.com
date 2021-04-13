@@ -108,6 +108,17 @@ const IndexPage = () => {
             }
           }
         }
+        imagepivots: file(relativePath: { eq: "pivots.png" }) {
+          id
+          childImageSharp {
+            fixed {
+              ...GatsbyImageSharpFixed
+            }
+            fluid(maxWidth: 900, quality: 90) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `
   )
@@ -258,6 +269,23 @@ const IndexPage = () => {
           </p>
           <img src={arclemockup} />
         </ProjectCard> */}
+        <ProjectCard>
+          <h2>Pivot Talks</h2>
+          <p>
+            An event I organized and interviewed{" "}
+            <a href="https://en.wikipedia.org/wiki/Thomas_Bachem">
+              Thomas Bachem,
+            </a>{" "}
+            <a href="https://tanerakcok.com/">Taner Akcok</a>, and{" "}
+            <a href="https://en.wikipedia.org/wiki/Thomas_Bachem">
+              Heiko Rauch
+            </a>
+            . They shared thier fuckups and pivots as part of an interactive
+            format.
+          </p>{" "}
+          <Img fluid={data.imagepivots.childImageSharp.fluid} />
+        </ProjectCard>
+
         <ProjectCard>
           <h2>Coocup Concept</h2>
           <p>
