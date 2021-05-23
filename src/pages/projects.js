@@ -206,14 +206,6 @@ const IndexPage = () => {
             >
               markov-solutions.com.
             </a>{" "}
-            The demo can be tried{" "}
-            <a
-              rel="noopener noreferrer"
-              href="https://dashboard.markov-solutions.com/"
-            >
-              here
-            </a>
-            .
           </p>
           <div>
             <iframe
