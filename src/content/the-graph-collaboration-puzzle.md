@@ -1,5 +1,5 @@
 ---
-title: "The Science of Tools for Thought and Cognition Augmentation Software"
+title: "The Graph Collaboration Puzzle"
 date: "2021-01-31"
 draft: false
 path: "/blog/cas"
