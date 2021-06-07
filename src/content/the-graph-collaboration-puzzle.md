@@ -5,11 +5,9 @@ draft: false
 path: "/blog/cas"
 ---
 
-# Tool adoption
+# Tool adoption and value creation
 
 Networked note-taking tools augment our cognition by enabling us to work with an extended corpus of knowledge. These applications have seen a substantial increase in adoption in the last few years that can be projected to continue.
-
-# Value creation
 
 Collaborative Networked note-taking tools will allow for an even greater collaboration because they enable us to leverage not only our own extended brains but that of that of our peers and close collaborators.
 
