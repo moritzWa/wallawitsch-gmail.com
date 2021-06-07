@@ -1,15 +1,17 @@
 ---
 title: "The Graph Collaboration Puzzle"
-date: "2021-01-31"
+date: "2021-06-07"
 draft: false
-path: "/blog/cas"
+path: "/blog/the-graph-collaboration-puzzle"
 ---
 
 # Tool adoption and value creation
 
-Networked note-taking tools augment our cognition by enabling us to work with an extended corpus of knowledge. These applications have seen a substantial increase in adoption in the last few years that can be projected to continue.
+Networked note-taking tools [augment our cognition](https://moritz.digital/cas) by enabling us to work with an extended corpus of knowledge. These applications have seen a substantial increase in adoption in the last few years that can be projected to continue.
 
 Collaborative Networked note-taking tools will allow for an even greater collaboration because they enable us to leverage not only our own extended brains but that of that of our peers and close collaborators.
+
+Similar to a discussion forum, but far more powerful, thoße tools amplify the [collective intelligence](https://en.wikipedia.org/wiki/Collective_intelligence) of it's user.
 
 # The Puzzle
 
@@ -18,7 +20,8 @@ Knowledge Graph collaboration sounds like a straightforward feature to implement
 ## Private and non-private
 
 When sharing your knowledge base with a close collaborator, you want to make sure nothing private is shared. Many people use their personal note-taking system also as their journal, writing about the most intimate and cherished experiences. A requirement, therefore, is that the system has a function to differentiate between non-private and private notes that a coworker should not be able to read or search for.
-[https://twitter.com/AthensResearch/status/1348486878983458817](https://twitter.com/AthensResearch/status/1348486878983458817)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Generating topics is one way to build a personal wiki. Could also ask questions to your wiki with <a href="https://twitter.com/HebbiaAI?ref_src=twsrc%5Etfw">@HebbiaAI</a> <br><br>Sharing knowledge graphs is the dream. Difficulty is permissions and public/private boundaries <a href="https://t.co/4Spx4t7Xan">https://t.co/4Spx4t7Xan</a></p>&mdash; Athens 🏛 is hiring Clojure(Script) Devs (@AthensResearch) <a href="https://twitter.com/AthensResearch/status/1348486878983458817?ref_src=twsrc%5Etfw">January 11, 2021</a></blockquote>
 
 RemNote already integrates a privacy feature, although its **shared knowledge base ** feature is still in private beta.
 

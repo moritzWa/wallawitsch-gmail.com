@@ -6,6 +6,7 @@ module.exports = {
     author: `@moritzwallawitsch`,
   },
   plugins: [
+    `gatsby-plugin-twitter`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
