@@ -15,7 +15,7 @@ Similar to a discussion forum, but far more powerful, thoße tools amplify the [
 
 # The Puzzle
 
-Knowledge Graph collaboration sounds like a straightforward feature to implement. However, the complexity of collaborating on a graph is magnitudes more complex than that of a single document. To summarize, there are many problems and puzzles to be solved until this value is unlocked.
+Knowledge Graph collaboration sounds like a straightforward feature to implement. However, the complexity of collaborating on a graph is magnitudes more complex than that of a single document. To summarize, there are many problems and puzzles to be solved until this value is unlocked..
 
 ## Private and non-private
 
