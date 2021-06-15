@@ -118,6 +118,12 @@ const Layout = ({ children }) => (
           >
             <FAicon size="lg" icon={["fab", "researchgate"]} size="lg"></FAicon>
           </a> */}
+          <a
+            href="https://www.youtube.com/channel/UCHMkpuGrvvKZFTakVnGx8Bg"
+            target="_blank"
+          >
+            <FAicon icon={["fab", "youtube"]} size="lg" />
+          </a>{" "}
           <a href="https://angel.co/u/moritz-wallawitsch" target="_blank">
             <FAicon
               //icon={faTwitter} //"fab fa-angellist"
