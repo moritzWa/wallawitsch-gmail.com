@@ -39,7 +39,9 @@ As centralized systems become increasingly powerful, taking more data at once as
 
 [The Price of Anarchy](https://www.wikiwand.com/en/Price_of_anarchy) is a crucial phenomenon that helps us to think about the potential paradigm shift that could occur. It is a concept from Game Theory and measures the extent to which competition approximates cooperation, i.e. how the efficiency of a system degrades due to the selfish behavior of its agents.
 
-We know that analytical, non-centralized systems are [33% less](https://www.mit.edu/~jnt/Papers/N-2004-PoA.pdf) efficient than centralized. This means, for example, if a country accomplishes building a centralized computed and routed autonomous vehicle network, it would gain 33% in efficiency and a strong economic competitive advantage.
+We know that non-centralized (transportation) systems are [33% less](https://www.mit.edu/~jnt/Papers/N-2004-PoA.pdf) efficient than centralized. This means, for example, if a country accomplishes building a centralized computed and routed autonomous vehicle network, it would gain 33% in efficiency and a strong economic competitive advantage.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">If a country accomplishes building a centralized routed autonomous transportation network, it will gain 33% in efficiency and a strong economic competitive advantage.<a href="https://t.co/TVlpfTmjmf">https://t.co/TVlpfTmjmf</a></p>&mdash; Moritz Wallawitsch (@MoritzW42) <a href="https://twitter.com/MoritzW42/status/1405616991231090693?ref_src=twsrc%5Etfw">June 17, 2021</a></blockquote>
 
 ## Dataism adoption trends
 
@@ -51,6 +53,8 @@ Those values might be why we got [140 characters and not the flying cars](https:
 
 ## Summary
 
-Dataism has not only provided the most efficient organization systems for the economy but also concurred most of the scientific establishment by creating a combined framework to understand biochemical and electronic algorithms.
+Dataism has not only provided the most efficient organizational systems for the economy but also concurred big parts of the scientific establishment by creating a combined framework for understanding biochemical and electronic algorithms.
 
 Those examples show that information flow is already one of the prime optimization goals of our society; its innovation and will only become more prominent in the coming decades. Our Humanists agenda is often that of a dataist.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Dataism has not only provided the most efficient organizational systems for the economy but also concurred big parts of the scientific establishment by creating a combined framework for understanding biochemical and electronic algorithms.</p>&mdash; Moritz Wallawitsch (@MoritzW42) <a href="https://twitter.com/MoritzW42/status/1405616992392925185?ref_src=twsrc%5Etfw">June 17, 2021</a></blockquote>
