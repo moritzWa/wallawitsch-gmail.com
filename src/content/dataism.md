@@ -1,5 +1,5 @@
 ---
-title: "Dataism—information flow at all costs"
+title: "Dataism is eating the world: information flow at all costs"
 date: "2021-06-15"
 draft: false
 path: "/blog/dataism"
