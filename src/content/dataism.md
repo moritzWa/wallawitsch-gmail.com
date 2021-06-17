@@ -13,7 +13,7 @@ I recently re-read the book [Homo Deus by Noah Harari](<[link_generated_on_downl
 
 Religions like the humanistic religions, e.g., philosophies (Capitalism, Humanism, Communism...), uphold the human experience as the highest good. Dataism's highest good is the flow and freedom of information.
 
-It states that the universe consists of data streams and that the value of an entity in the universe is measured by its data processing power. The goals are, therefore, to increase the number, variety, and connectivity of processors, and the flexibility of connections.
+It states that the universe consists of data streams and that the value of an entity in the universe is measured by its data processing power. This means that a human is more valuable than a fruit fly because it can process more data. The goals are, therefore, to increase the number, variety, and connectivity of processors, and the flexibility of connections.
 
 Practically, this means increasing the number and diversity of humans and devices which process information. It also means improving our communication and transportation infrastructure and, for example, communicating with other people all around the world.
 
