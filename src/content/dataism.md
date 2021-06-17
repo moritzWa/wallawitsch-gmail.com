@@ -1,6 +1,6 @@
 ---
 title: "Dataism is eating the world: information flow at all costs"
-date: "2021-06-15"
+date: "2021-06-17"
 draft: false
 path: "/blog/dataism"
 ---
@@ -43,6 +43,7 @@ We know that non-centralized (transportation) systems are [33% less](https://www
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If a country accomplishes building a centralized routed autonomous transportation network, it will gain 33% in efficiency and a strong economic competitive advantage.<a href="https://t.co/TVlpfTmjmf">https://t.co/TVlpfTmjmf</a></p>&mdash; Moritz Wallawitsch (@MoritzW42) <a href="https://twitter.com/MoritzW42/status/1405616991231090693?ref_src=twsrc%5Etfw">June 17, 2021</a></blockquote>
 
+<br>
 <br>
 
 ## Dataism adoption trends
