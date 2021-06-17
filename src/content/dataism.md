@@ -43,6 +43,8 @@ We know that non-centralized (transportation) systems are [33% less](https://www
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If a country accomplishes building a centralized routed autonomous transportation network, it will gain 33% in efficiency and a strong economic competitive advantage.<a href="https://t.co/TVlpfTmjmf">https://t.co/TVlpfTmjmf</a></p>&mdash; Moritz Wallawitsch (@MoritzW42) <a href="https://twitter.com/MoritzW42/status/1405616991231090693?ref_src=twsrc%5Etfw">June 17, 2021</a></blockquote>
 
+<br>
+
 ## Dataism adoption trends
 
 We already know that many religions share a common ground. Moreover, as we will see, connectivity and information exchange are already hugely important pursuits, especially in intellectual parts of society.
