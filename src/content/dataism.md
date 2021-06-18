@@ -7,7 +7,7 @@ path: "/blog/dataism"
 
 ## Introduction
 
-I recently reread the book [Homo Deus by Noah Harari](<[link_generated_on_download](https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow/dp/0062464310)>). Reading it for the first time about two years ago, I was fascinated by the [biochemical mechanisms that expose us to manipulation](https://moritz.digital/blog/The-Influence-of-Game-Design-on-Childrens-Psychology). However, when I reread it a few days ago, I learned about Dataism and found myself amazed and questioning my most fundamental philosophical belief systems.
+I recently reread the book [Homo Deus by Noah Harari](https://www.amazon.com/Homo-Deus-Brief-History-Tomorrow/dp/0062464310). Reading it for the first time about two years ago, I was fascinated by the [biochemical mechanisms that expose us to manipulation](https://moritz.digital/blog/The-Influence-of-Game-Design-on-Childrens-Psychology). However, when I reread it a few days ago, I learned about Dataism and found myself amazed and questioning my most fundamental philosophical belief systems.
 
 ## Explanation
 
