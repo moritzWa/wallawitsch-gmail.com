@@ -22,7 +22,7 @@ Tools that augment our cognitive abilities with the help of computers are still 
   - [Distributed Cognition and Social Computing](#distributed-cognition-and-social-computing)
   - [Personal Knowledge Management](#personal-knowledge-management)
 - [New types of augmenting devices and interfaces](#new-types-of-augmenting-devices-and-interfaces)
-  - [Cognitive Technology](#cognitive-technology)
+  - [Cognitive Technology, GANs and GTP-3](#cognitive-technology-gans-and-gtp-3)
   - [Memory and Knowledge Augmentation](#memory-and-knowledge-augmentation)
   - [Augmented Reality](#augmented-reality)
 - [Cognition Augmentation Software for Learning](#cognition-augmentation-software-for-learning)
@@ -85,7 +85,7 @@ We will look at cloud architectures that describe the combination of cognitive m
 
 # New types of augmenting devices and interfaces
 
-## Cognitive Technology
+## Cognitive Technology, GANs and GTP-3
 
 In 2016, Michael Nielsen, in his essay [Thought as a Technology](http://cognitivemedium.com/tat/), described the term cognitive technology as an external artifact designed by humans, which can be internalized and used as a substrate for cognition. These are representations invented by other people, such as words, graphs, maps, algebra, mathematical diagrams, etc. He further differentiated between Models of Augmentation as Cognitive Transformation (e.g., a spreadsheet) or Cognitive Outsourcing (e.g., a calculator).
 
@@ -96,6 +96,10 @@ Cognitive technology using Artificial Intelligence discovers and reveals deep pr
 How this process can look like is demonstrated in a [YouTube videos by the AI researcher Károly Zsolnai-Fehér](https://www.youtube.com/watch?v=B8RMUSmIGCI&t=2s), in which he also describes it as the _artistic control over images_.
 
 ![iGAN demontsration](https://s4.gifyu.com/images/gan.gif)
+
+Another fascinating technology in this category is GTP-3, _an autoregressive language model that uses deep learning to produce human-like text_. We saw commercially successful use of this model in copywriting (ex. copysmith.ai) and code completion (ex. [GitHub Copilot](https://copilot.github.com/)). But besides software code, there has been little commercialization of text completion. Thus, I hope somebody builts a ubiquitous text completions browser extension (pls. lmk if you do). 
+
+GTP-3 can not only be used to outsource cognitive tasks, but it can generate entirely new ideas. David Dohan, Research Engineer at Google Brain, demonstrates the power of using this model for idea generation in a [recent Athens community talk](https://youtu.be/Oxbv9EnhSuk?t=534). 
 
 Although the descriptions of the two terms, provided by Nielsen and Carter, still comes with less clearly defined terms of "deep principles," "in a meaningful way," and "human thought," they help us draw a further categorization. For our purpose here and using our terminology, I'll summarize them as the distinction between CAS and CAAI, Cognitive Augmentation AI.
 
@@ -193,4 +197,4 @@ Future features like the "Connection-recommendation" would be a Cognitive techno
 
 If you are building or researching Cognition Augmentation Software (CAS), I would be happy to have a chat!
 
-Lastly, if you are a talented engineer, designer, or operator interested in working on cutting-edge productivity and learning software; [We are hiring at RemNote](https://www.remnote.io/careers) and would love to hear from you!
+Lastly, if you are a talented engineer, designer, or operator interested in working on cutting-edge productivity and learning software; [We are hiring at RemNote](https://www.remnote.com/careers) and would love to hear from you!
