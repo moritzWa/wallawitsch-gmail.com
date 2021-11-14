@@ -22,7 +22,7 @@ Tools that augment our cognitive abilities with the help of computers are still 
   - [Distributed Cognition and Social Computing](#distributed-cognition-and-social-computing)
   - [Personal Knowledge Management](#personal-knowledge-management)
 - [New types of augmenting devices and interfaces](#new-types-of-augmenting-devices-and-interfaces)
-  - [Cognitive Technology, GANs and GTP-3](#cognitive-technology-gans-and-gtp-3)
+  - [Cognitive Technology, GANs, and GTP-3](#cognitive-technology-gans-and-gtp-3)
   - [Memory and Knowledge Augmentation](#memory-and-knowledge-augmentation)
   - [Augmented Reality](#augmented-reality)
 - [Cognition Augmentation Software for Learning](#cognition-augmentation-software-for-learning)
@@ -50,7 +50,7 @@ Thinking and Thoughts are also not clearly defined, which makes the use of this 
 
 As World War II mercifully drew to a close, Vannevar Bush, President Truman's Director of Scientific Research and initiator of the Manhattan Project, surveyed the post-war landscape. He laid out what he viewed as the most important forthcoming challenges to humankind. In his seminal work from 1945 [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Bush set the stage for the post-WW2 allocation of scientific efforts towards understanding rather than destruction and described his concept of the memex, a hypothetical memory augmentation device. 
 
-The research of this field goes back to the 1960s and the pioneering work of Douglas C. Engelbart who was highly influenced by Bush's work. He viewed the process of [Augmenting Human Intellect](https://www.dougengelbart.org/content/view/138) as increasing the capability to solve complex problems by information handling and symbol structuring and to gain comprehension. The vision developed by Engelbart, J. C. R. Licklider, Alan Kay, and others had a strong influence on later entrepreneurs like Steve Jobs. It acted as the conceptual foundation for the personal computer.
+The research of this field goes back to the 1960s and the pioneering work of Douglas C. Engelbart, who was highly influenced by Bush's work. He viewed the process of [Augmenting Human Intellect](https://www.dougengelbart.org/content/view/138) as increasing the capability to solve complex problems by information handling and symbol structuring and to gain comprehension. The vision developed by Engelbart, J. C. R. Licklider, Alan Kay, and others had a strong influence on later entrepreneurs like Steve Jobs. It acted as the conceptual foundation for the personal computer.
 
 The field was finally formed in early 2000 under the name of _Augmented Cognition_ and instituted by the [Augmented Cognition Program](https://en.wikipedia.org/wiki/Augmented_cognition), which was renamed to _Improving Warfighter Information Intake Under Stress Program_ in 2001. The program was separated into four phases:
 
@@ -84,11 +84,13 @@ We will look at cloud architectures that describe the combination of cognitive m
 
 ## Personal Knowledge Management
 
-[Personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management) (PKM), is one way to augmented cognition. By helping us manage and externalize our knowledge, these systems enable us to work with a more extensive knowledge base. PKM systems are often called _Second Brains_. Still, most of them act more as a storage medium and replica of its user's actual body of knowledge. At [RemNote](https://www.remnote.io/), we try not just to help you create a copy of your knowledge but an extension and augmentation of your brain.
+[Personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management) (PKM), is one way to augment cognition. By helping us manage and externalize our knowledge, these systems enable us to work with a more extensive knowledge base. 
+
+PKM systems are often called _Second Brains_. Still, most of them act more as a storage medium and replica of its user's actual body of knowledge. At [RemNote](https://www.remnote.io/), we try not just to help you create a copy of your knowledge but an extension and augmentation of your brain.
 
 # New types of augmenting devices and interfaces
 
-## Cognitive Technology, GANs and GTP-3
+## Cognitive Technology, GANs, and GTP-3
 
 In 2016, Michael Nielsen, in his essay [Thought as a Technology](http://cognitivemedium.com/tat/), described the term cognitive technology as an external artifact designed by humans, which can be internalized and used as a substrate for cognition. These are representations invented by other people, such as words, graphs, maps, algebra, mathematical diagrams, etc. He further differentiated between Models of Augmentation as Cognitive Transformation (e.g., a spreadsheet) or Cognitive Outsourcing (e.g., a calculator).
 
@@ -96,7 +98,7 @@ A year later, in a paper titled, [Using Artificial Intelligence to Augment Human
 
 Cognitive technology using Artificial Intelligence discovers and reveals deep principles in ways meaningful to the user and helps us invent new cognitive technologies. The example they give here is an Interactive Generative Adversarial Model (iGAN). It can, for example, show a typographer novel operation as new primitives that he can then learn and apply in future designs without using the iGAN. In the context of a designer, these new primitives are what we call design patterns.
 
-How this process can look like is demonstrated in a [YouTube videos by the AI researcher Károly Zsolnai-Fehér](https://www.youtube.com/watch?v=B8RMUSmIGCI&t=2s), in which he also describes it as the _artistic control over images_.
+How this process can look like is demonstrated in a [video by the AI researcher Károly Zsolnai-Fehér](https://www.youtube.com/watch?v=B8RMUSmIGCI&t=2s), in which he also describes it as the _artistic control over images_.
 
 ![iGAN demontsration](https://s4.gifyu.com/images/gan.gif)
 
@@ -104,7 +106,7 @@ Another fascinating technology in this category is GTP-3, _an autoregressive lan
 
 GTP-3 can not only be used to outsource cognitive tasks, but it can generate entirely new ideas. David Dohan, Research Engineer at Google Brain, demonstrates the power of using this model for idea generation in a [recent Athens community talk](https://youtu.be/Oxbv9EnhSuk?t=534). 
 
-Although the descriptions of the two terms, provided by Nielsen and Carter, still comes with less clearly defined terms of "deep principles," "in a meaningful way," and "human thought," they help us draw a further categorization. For our purpose here and using our terminology, I'll summarize them as the distinction between CAS and CAAI, Cognitive Augmentation AI.
+Although the descriptions of the two terms, provided by Nielsen and Carter, still come with less clearly defined terms of "deep principles," "in a meaningful way," and "human thought," they help us draw a further categorization. For our purpose here and using our terminology, I'll summarize them as the distinction between CAS and CAAI, Cognitive Augmentation AI.
 
 It's still early for software tools like those iGANs explored above. Still, we can already see that _Offering predefined elements (shapes, text, symbols) directly exemplifies how a digital tool can augment human intelligence by allowing the user to get into the creative flow faster and minimize unnecessary construction work._, as Molly Mielke phrased it in her thesis [Computers and Creativity](https://www.mollymielke.com/cc).
 
@@ -116,19 +118,19 @@ In the before-mentioned seminal essay, Bush describes the personal knowledge man
 
 It, for example, should be able to retrieve and reproduce items many years old. He also describes its sharing features as _"Wholly new forms of encyclopedias will appear, ready-made with a mesh of associative trails running through them, ready to be dropped into the Memex and there amplified. The lawyer has at his touch the associated opinions and decisions of his whole experience, and of the experience of friends and authorities. ..."_
 
-But in all those years, there has not been actual scientific work to engineer a cognition augmenting device as he describes it. However, this changed recently. In June 2019, the two researchers, Mahadev Satyanarayanan and Nigel Davies published a paper [Augmenting Cognition Through Edge Computing](https://eprints.lancs.ac.uk/id/eprint/132846/1/cogment2019.pdf), describing such a system's possible architecture.
+But in all those years, there has not been actual scientific work to engineer a cognition augmenting device as he describes it. However, this changed recently. In June 2019, the two researchers, Mahadev Satyanarayanan and Nigel Davies, published a paper [Augmenting Cognition Through Edge Computing](https://eprints.lancs.ac.uk/id/eprint/132846/1/cogment2019.pdf), describing such a system's possible architecture.
 
 ![](./../images/RECALL_memory_architecture.png)
 
 It might, for example, help users restore context before their next conference or class. While walking to a lecture, the student could be primed with a lecture overview through his smart glasses, surfacing relevant information. The description of the "Memory vault" in this architecture exhibits a high similarity to Vannevar Bush's Memex.
 
-**But have people start building such applications?**
+**But have people started building such applications?**
 
 [Recent leaks](https://www.youtube.com/watch?v=Kd34OMunStg) about the startup [Hu.ma.ne](Hu.ma.ne) hinted that they are building a contextual recall memory device in the form of a lapel pin. However, the thrill remains since the job listings on LinkedIn also listed a BCI engineer, and they stated that it would have the same kind of impact as the iPhone.
 
 The more intriguing and already usable product in this realm under development might be [personal.ai](https://www.personal.ai/) (formerly hu.man.ai). Its founder Suman Kanuganti and his colleagues are building a personal ai for memory storage. More precisely, they state that the product will _safekeep the thoughts and memories that define you with your personal AI secured by a blockchain_. A very compelling value proposition, I think. This product is an excellent example of memory augmentation using Artificial Intelligence.
 
-Personal AI's Head of Design, Kristie Kaiser, also [describes the application of Ambient Computing concepts as part of their product](https://medium.com/humanailabs/the-future-of-remembering-article-iii-effortless-recall-ux-for-everyone-2b16b5443a29). Ambient Computing is a user experience that is seamlessly integrated into the flow of the users' life and that requires no conscious action.
+Personal AI's Head of Design, Kristie Kaiser, also [describes the application of Ambient Computing concepts as part of their product](https://medium.com/humanailabs/the-future-of-remembering-article-iii-effortless-recall-ux-for-everyone-2b16b5443a29). Ambient Computing is a user experience that is seamlessly integrated into the flow of the users' life, and that requires no conscious action.
 
 Lastly, they also produced this very moving teaser video:
 
@@ -188,7 +190,7 @@ One can only surmise what the next hundred years will do to internalize and exte
 
 ## Development
 
-In their essay, Michael Nielsen and Andy Matuschak describe the difficulty for developers of Tools For Thought to prevent copy-cats. They give the examples of Adobe, which invested heavily in developing their products and is now copied or disrupted by cloud-based companies like Figma. Considering the economic drivers discussed, one can be optimistic that future CAS (or Cognitive technology using Artificial Intelligence) that leverage proprietary AI and AR technology will have less of those difficulties.
+In their essay, Michael Nielsen and Andy Matuschak describe the difficulty for developers of Tools For Thought to prevent copy-cats. They give the examples of Adobe, which invested heavily in developing their products and is now copied or disrupted by cloud-based companies like Figma. Considering the economic drivers discussed, one can be optimistic that future CAS (or Cognitive technology using Artificial Intelligence) that leverages proprietary AI and AR technology will have fewer of those difficulties.
 
 As mentioned, many innovations we take for granted today originated out of AC research. However, to date, most of the research is intended for and was funded by military and defense agencies ([Drexler et al. 2007](https://link.springer.com/chapter/10.1007/978-3-540-73216-7_48)). This narrow focus might leave open a huge opportunity and an unaddressed consumer market of a growing number of knowledge workers. After all, the technologies developed as part of the research share the same goal of productivity improvements as the [\$102.98](https://www.prnewswire.com/news-releases/productivity-management-software-market-size-worth-102-98-billion-by-2027-grand-view-research-inc-301120852.html) Billion productivity software market.
 
