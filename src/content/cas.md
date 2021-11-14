@@ -48,7 +48,9 @@ Thinking and Thoughts are also not clearly defined, which makes the use of this 
 
 ## History
 
-The research of this field goes back to the 1960s and the pioneering work of Douglas C. Engelbart. He viewed the process of [Augmenting Human Intellect](https://www.dougengelbart.org/content/view/138) as increasing the capability to solve complex problems by information handling and symbol structuring and to gain comprehension. The vision developed by Engelbart, J. C. R. Licklider, Alan Kay, and others had a strong influence on later entrepreneurs like Steve Jobs. It acted as the conceptual foundation for the personal computer.
+As World War II mercifully drew to a close, Vannevar Bush, President Truman's Director of Scientific Research and initiator of the Manhattan Project, surveyed the post-war landscape. He laid out what he viewed as the most important forthcoming challenges to humankind. In his seminal work from 1945 [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Bush set the stage for the post-WW2 allocation of scientific efforts towards understanding rather than destruction and described his concept of the memex, a hypothetical memory augmentation device. 
+
+The research of this field goes back to the 1960s and the pioneering work of Douglas C. Engelbart who was highly influenced by Bush's work. He viewed the process of [Augmenting Human Intellect](https://www.dougengelbart.org/content/view/138) as increasing the capability to solve complex problems by information handling and symbol structuring and to gain comprehension. The vision developed by Engelbart, J. C. R. Licklider, Alan Kay, and others had a strong influence on later entrepreneurs like Steve Jobs. It acted as the conceptual foundation for the personal computer.
 
 The field was finally formed in early 2000 under the name of _Augmented Cognition_ and instituted by the [Augmented Cognition Program](https://en.wikipedia.org/wiki/Augmented_cognition), which was renamed to _Improving Warfighter Information Intake Under Stress Program_ in 2001. The program was separated into four phases:
 
@@ -108,7 +110,7 @@ It's still early for software tools like those iGANs explored above. Still, we c
 
 ## Memory and Knowledge Augmentation
 
-In his seminal work from 1945 [As We May Think](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush describes the abilities of the [Memex](https://en.wikipedia.org/wiki/Memex) (a very advanced association-based PKM).
+In the before-mentioned seminal essay, Bush describes the personal knowledge management abilities of the [Memex](https://en.wikipedia.org/wiki/Memex).
 
 ![](https://hpc-internal.carnegiescience.edu/img/MemexWikiImage.jpg)
 
