@@ -84,7 +84,7 @@ We will look at cloud architectures that describe the combination of cognitive m
 
 ## Personal Knowledge Management
 
-[Personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management) (PKM), is one way to augment cognition. By helping us manage and externalize our knowledge, these systems enable us to work with a more extensive knowledge base. 
+[Personal knowledge management](https://en.wikipedia.org/wiki/Personal_knowledge_management) (PKM) is one way to augment cognition. By helping us manage and externalize our knowledge, these systems enable us to work with a more extensive knowledge base. The most comprehensive description and analysis of PKMs and related concepts I've found was the article [Still Building the Memex](https://cacm.acm.org/magazines/2011/2/104378-still-building-the-memex/fulltext) by [Stephen Davies](http://stephendavies.org/), professor in the Computer Science department at the University of Mary Washington.
 
 PKM systems are often called _Second Brains_. Still, most of them act more as a storage medium and replica of its user's actual body of knowledge. At [RemNote](https://www.remnote.io/), we try not just to help you create a copy of your knowledge but an extension and augmentation of your brain.
 
