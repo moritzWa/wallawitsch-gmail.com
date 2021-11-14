@@ -41,8 +41,9 @@ Standards, norms, terminology, and tractable definitions have guided many advanc
 
 In their outstanding work, [How can we develop transformative Tools For Thought? ](https://numinous.productions/ttft/) Michael Nielsen and Andy Matuschak describe the history of the term. The first usage of it, they explain, goes back to the early computer pioneers. A problem with this term is that it does not differentiate between cognitive, e.g., cultural-evolutionary tools (like number theory) and software tools, for example, note-taking apps.
 
-Thinking and Thoughts are also not clearly defined, which makes the use of this term even harder. I will use the term Cognition Augmentation Software, or simply CAS, to describe software that augments our cognition.
+Thinking and Thoughts are also not clearly defined, which makes the use of this term even harder. I will use the term Cognition Augmentation Software, or simply CAS, to describe software that augments our cognition. 
 
+![](./../images/cas_map_top-lvl.png)
 # Augmented Cognition
 
 ## History
@@ -167,7 +168,7 @@ We can be optimistic that, given this technical feasibility and the fast advance
 
 # Outlook, Market, and Trends
 
-Summarizing, we can draw the following distinction between tools for thought and CAS and its tangents:
+Summarizing, we can draw the following distinction between tools for thought and CAS and some of its subareas:
 
 ![The Learning Psychology of Software Engineering](./images/../../images/cas_map.png)
 
